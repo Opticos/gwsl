@@ -15,6 +15,7 @@ Some tutorials to help you get your setup up and running
 
 ### Donate
 
+{% include donate.html %}
 
 
 
