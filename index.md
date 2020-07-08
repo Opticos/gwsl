@@ -5,7 +5,9 @@
 
 ### What on Earth does this do? What is it for? How can it help me?
 
-Recently, Microsoft released WSL2. WSL2 is a system that allows Linux programs to be installed on Windows 10. Unfortunately, there is a downside: it does not support graphical apps. GWSL2 bridges this gap. It is an extremely customizable XServer that integrates with Windows 10. 
+Recently, Microsoft released WSL2. WSL2 is a system that allows Linux programs to be installed on Windows 10. Unfortunately, there is a downside: WSL2 does not natively support graphical apps. GWSL2 bridges this gap. It is an extremely customizable XServer that integrates with Windows 10. 
+
+With GWSL, you can simply run graphical linux apps on windows.
 
 Insert promo video here
 
