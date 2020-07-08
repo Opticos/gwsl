@@ -1,7 +1,7 @@
 ## GWSL2 - The Integrated Windows 10 Xserver
 
 
-### Copyright [Opticos Studios](http://opticos.studio) 2020
+##### Copyright [Opticos Studios](http://opticos.studio) 2020
 
 ### What on Earth does this do? What is it for? How can it help me?
 
@@ -9,11 +9,17 @@ Recently, Microsoft released WSL2. WSL2 is a system that allows Linux programs t
 
 With GWSL, you can simply run graphical linux apps on windows.
 
+
+
 Insert promo video here
 
-#### System Requirements
+
+
+### System Requirements
 
 Windows 10 Version 2004
+
+
 
 ### Tutorials
 
