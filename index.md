@@ -2,7 +2,9 @@
 
 
 
-### Getting Started
+### Tutorials
+
+#### Getting Started
 
 Some tutorials to help you get your setup up and running
 
@@ -12,7 +14,19 @@ Some tutorials to help you get your setup up and running
 
 [Prepare a Distro for X](https://guides.github.com/features/mastering-markdown/).
 
-# testing 123
+[Enable Dbus (For Running Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
+
+#### Other Cool Tutorials
+
+[Creating a Linux App Shortcut](https://guides.github.com/features/mastering-markdown/).
+
+[Changing DPI Options](https://guides.github.com/features/mastering-markdown/).
+
+[Changing the GTK Theme](https://guides.github.com/features/mastering-markdown/).
+
+[Using the App Launcher](https://guides.github.com/features/mastering-markdown/).
+
+[Using SSH with Graphical Windows](https://guides.github.com/features/mastering-markdown/).
 
 
 
