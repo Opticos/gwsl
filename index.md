@@ -22,11 +22,11 @@ Windows 10 Version 2004
 
 Some tutorials to help you get your setup up and running
 
-[Getting Familiar With WSL2](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
+[Getting Familiar With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
 
 [Enabling WSL2 and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
 
-[Prepare a Distro for X](https://guides.github.com/features/mastering-markdown/).
+[Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
 
 [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
 
@@ -42,9 +42,11 @@ Digging Deeper
 
 [Using the Integrated Linux App Launcher](https://guides.github.com/features/mastering-markdown/).
 
-[Using Remote Apps With X](https://guides.github.com/features/mastering-markdown/).
+[Using Remote Linux Apps With X](https://guides.github.com/features/mastering-markdown/).
 
+[Creating Windows Shortcuts for Remote Linux *Apps* With X](https://guides.github.com/features/mastering-markdown/).
 
+[Creating Windows Shortcuts *ENTIRE* Remote Linux *Machines* With X](https://guides.github.com/features/mastering-markdown/).
 
 
 
