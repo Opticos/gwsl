@@ -4,7 +4,7 @@
 
 GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it let lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, manage WSL distros, and configure them. All at the click of a button! No memorization of commands necessary! *Easy!!!*
 
-
+Bascially, it does alot of stuff . . . So *you* don't have to! Maybe you'd better watch the video ↓
 
 Insert promo video here
 
