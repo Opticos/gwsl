@@ -8,7 +8,9 @@ GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *And* it lets
 
 Insert promo video here
 
+### Wait... Why is it called GWSL? From your title it looks like it should be called TFRAHIXSFW. Why didn't you call it that?
 
+Meh... That doesn't sound too great. GWSL2 stands for Graphical WSL2. WSL in turn stands for Windows Subsystem for Linux. :-)
 
 ### System Requirements
 
