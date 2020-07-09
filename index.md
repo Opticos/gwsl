@@ -1,13 +1,8 @@
-## GWSL2 - The Integrated Windows 10 Xserver
-
-
-##### Copyright [Opticos Studios](http://opticos.studio) 2020
+## GWSL2 - The Integrated Windows 10 Xserver - And More
 
 ### What on Earth does this do? What is it for? How can it help me?
 
-Recently, Microsoft released WSL2. WSL2 is a system that allows Linux programs to be installed on Windows 10. Unfortunately, there is a downside: WSL2 does not natively support graphical apps. GWSL2 bridges this gap. It is an extremely customizable XServer that integrates with Windows 10. 
-
-With GWSL, you can simply run graphical linux apps on windows.
+GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *And* it lets you run graphical applications located on *remote* Linux computers on Window 10 . . . *AND* it let lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, manage WSL distros, and customize them. All at the clock of a button! No memorization of commands necessary!
 
 
 
@@ -57,6 +52,7 @@ Digging Deeper
 Need help? Found a bug? Check out our [help page](https://help.github.com/categories/github-pages-basics/) or [contact us](https://github.com/contact).
 
 
+##### Copyright [Opticos Studios](http://opticos.studio) 2020
 
 
 ### Donate
