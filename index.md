@@ -12,6 +12,14 @@ Insert promo video here
 
 Meh... That doesn't sound too great. GWSL2 stands for Graphical WSL2. WSL in turn stands for Windows Subsystem for Linux. :-)
 
+### Great. But there are other XServers for Windows. Why should I use GWSL2?
+
+There are several alternative XServers for Windows 10. Some are proprietary (and expensive). Some have not been updated for years. 
+
+GWSL2 Builds on the VCXSRV XServer. One of the best open source Windows Xservers. GWSL2 uses VCXSRV as a backend but adds many useful features. 
+
+GWSL2 is Free.
+
 ### System Requirements
 
 Windows 10 Version 2004
