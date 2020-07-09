@@ -2,7 +2,7 @@
 layout: default
 title: GWSL 2
 ---
-## GWSL2 - The Integrated Windows 10 Xserver - And More
+## GWSL 2
 
 ### What on Earth does this do? What is it for? How can it help me?
 
