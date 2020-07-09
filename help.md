@@ -1,3 +1,7 @@
+---
+permalink: /help.html
+---
+
 ## Help
 
 ### Contact us by email
