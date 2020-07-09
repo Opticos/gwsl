@@ -28,7 +28,7 @@ Some tutorials to help you get your setup up and running
 
 [Prepare a Distro for X](https://guides.github.com/features/mastering-markdown/).
 
-[Enable Dbus (To Running Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
+[Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
 
 #### More
 
