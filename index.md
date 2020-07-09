@@ -2,9 +2,9 @@
 
 ### What on Earth does this do? What is it for? How can it help me?
 
-GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it let lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, manage WSL distros, and configure them. All at the click of a button! No memorization of commands necessary! *Easy!!!*
+GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros! All at the click of a button! No memorization of commands necessary! *Easy!!!*
 
-Bascially, it does alot of stuff . . . So *you* don't have to! Maybe you'd better watch the video ↓
+Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watch the video ↓
 
 Insert promo video here
 
@@ -24,7 +24,7 @@ Windows 10 Version 2004
 
 Some tutorials to help you get your setup up and running
 
-[Getting Familiar With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
+[Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
 
 [Enabling WSL2 and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
 
@@ -50,6 +50,11 @@ Digging Deeper
 
 [Creating Windows Shortcuts *ENTIRE* Remote Linux *Machines* With X](https://guides.github.com/features/mastering-markdown/).
 
+Miscellaneous
+
+[Installing The Synaptic Package Manager](https://guides.github.com/features/mastering-markdown/).
+
+[Installing Gnome Software](https://guides.github.com/features/mastering-markdown/).
 
 
 ### Help & Support
