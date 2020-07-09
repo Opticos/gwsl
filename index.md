@@ -2,7 +2,7 @@
 
 ### What on Earth does this do? What is it for? How can it help me?
 
-GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *And* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it let lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, manage WSL distros, and customize them. All at the clock of a button! No memorization of commands necessary!
+GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *And* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it let lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, manage WSL distros, and configure them. All at the click of a button! No memorization of commands necessary! Easy!!!
 
 
 
