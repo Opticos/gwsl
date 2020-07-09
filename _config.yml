@@ -2,3 +2,7 @@ theme: jekyll-theme-cayman
 show_downloads: ["false"]
 plugins:
   - jekyll-seo-tag
+gems:
+  - jekyll-sitemap
+whitelist:
+  - jekyll-sitemap
