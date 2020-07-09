@@ -58,7 +58,7 @@ Miscellaneous
 
 
 ### Help & Support
-Need help? Found a bug? Check out our [help page](https://help.github.com/categories/github-pages-basics/) or [contact us](https://github.com/contact).
+Need help? Found a bug? Check out our [help page](https://opticos.github.io/gwsl/help.html).
 
 
 ##### Copyright [Opticos Studios](http://opticos.studio) 2020
