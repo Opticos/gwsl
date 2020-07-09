@@ -1,5 +1,7 @@
 ---
-permalink: /help.html
+layout: default
+title: Help
+description: Help Using GWSL 2
 ---
 
 ## Help
@@ -7,6 +9,10 @@ permalink: /help.html
 ### Contact us by email
 
 fake (at) email (dot) com
+
+### Visit Our Discord Server
+
+sjlfjslkdjflks
 
 ### Reporting a bug? Here is how to find bug reports
 
