@@ -10,7 +10,7 @@ GWSL Lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets 
 
 Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watch the video ↓
 
-Insert promo video here
+TODO: Insert promo video here
 
 ### Wait... Why is it called GWSL? From your title it looks like it should be called TFPHIWXS. Why didn't you call it that?
 
