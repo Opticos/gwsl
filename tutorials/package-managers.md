@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installing a Graphical Package Manager on WSL
-permalink: /package-managers.html
+permalink: /tutorials/package-managers.html
 ---
 ## Choosing a Package Manager
 
