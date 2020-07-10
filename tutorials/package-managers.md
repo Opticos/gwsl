@@ -34,5 +34,15 @@ There are several to choose from depending on your Linux distribution. Here are 
 
 There are hundreds of other Linux Distributions. Try checking [this page](https://www.tecmint.com/linux-package-managers/) out.
 
+## Creating a Windows Shorcut for the Package Manager
 
+1.  Open the GWSL Dashboard.
+
+2.  Click Shortcut Creator.
+
+3.  Write the title of the shortcut in the first section and the command to run the manager in the second.
+
+4.  Under "More Options", set "Run as Root" to True. NOTE: If you are using Gnome-Software, set "Use DBus" to true as well.
+
+5.  Test your shortcut configuration using the "Test Shortcut" Button. If it works, click "save and add". The package manager of your choice will be added to the Windows 10 Start menu.
 
