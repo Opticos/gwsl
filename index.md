@@ -1,12 +1,12 @@
 ---
 layout: default
-title: GWSL 2
+title: GWSL
 ---
-## GWSL 2
+## GWSL
 
 ### What on Earth does this do? What is it for? How can it help me?
 
-GWSL2 Lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros! All at the click of a button! No memorization of commands necessary! *Easy!!!*
+GWSL Lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros! All at the click of a button! No memorization of commands necessary! *Easy!!!*
 
 Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watch the video ↓
 
@@ -14,15 +14,15 @@ Insert promo video here
 
 ### Wait... Why is it called GWSL? From your title it looks like it should be called TFRAHIXSFW. Why didn't you call it that?
 
-Meh... That doesn't sound too great. GWSL2 stands for Graphical WSL2. WSL in turn stands for Windows Subsystem for Linux. :-)
+Meh... That doesn't sound too great. GWSL stands for Graphical WSL. WSL in turn stands for Windows Subsystem for Linux. :-)
 
-### Great. But there are other XServers for Windows. Why should I use GWSL2?
+### Great. But there are other XServers for Windows. Why should I use GWSL?
 
-There are several alternative XServers for Windows 10. Some are proprietary (and expensive). Some have not been updated for years. 
+There are several alternative XServers for Windows 10. Some are proprietary (and costly). Some have not been updated for years. 
 
-GWSL2 Builds on the VCXSRV XServer. One of the best open source Windows Xservers. GWSL2 uses VCXSRV as a backend but adds many useful features. 
+GWSL is Free.
 
-GWSL2 is Free.
+GWSL Builds on the VCXSRV XServer. One of the best open source Windows Xservers. GWSL uses VCXSRV as a backend but adds many useful features. 
 
 ### System Requirements
 
@@ -38,7 +38,7 @@ Some tutorials to help you get your setup up and running
 
 [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
 
-[Enabling WSL2 and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
+[Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
 
 [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
 
