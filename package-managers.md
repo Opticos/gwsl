@@ -36,13 +36,3 @@ There are hundreds of other Linux Distributions. Try checking [this page](https:
 
 
 
-### Help & Support
-Need help? Found a bug? Check out our [help page](./help.html).
-
-
-##### Copyright [Opticos Studios](http://opticos.studio) 2020
-
-
-### Donate
-
-[Donate To Opticos Studios (It is very helpful)](https://sites.google.com/bartimee.com/opticos-studios/donate#h.p_6-1t7x2XFvCP).
