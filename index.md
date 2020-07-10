@@ -12,7 +12,7 @@ Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watc
 
 Insert promo video here
 
-### Wait... Why is it called GWSL? From your title it looks like it should be called TFRAHIXSFW. Why didn't you call it that?
+### Wait... Why is it called GWSL? From your title it looks like it should be called TFPHIWXS. Why didn't you call it that?
 
 Meh... That doesn't sound too great. GWSL stands for Graphical WSL. WSL in turn stands for Windows Subsystem for Linux. :-)
 
