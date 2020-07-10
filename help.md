@@ -13,7 +13,7 @@ fake (at) email (dot) com
 
 ### Visit Our Discord Server
 
-sjlfjslkdjflks
+![Discord Banner 3](https://discordapp.com/api/guilds/618185330289541130/widget.png?style=banner3)
 
 ### Reporting a bug? Here is how to find bug reports
 
