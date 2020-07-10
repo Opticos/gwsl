@@ -37,7 +37,7 @@ There are hundreds of other Linux Distributions. Try checking [this page](https:
 
 
 ### Help & Support
-Need help? Found a bug? Check out our [help page](https://opticos.github.io/gwsl/help.html).
+Need help? Found a bug? Check out our [help page](./help.html).
 
 
 ##### Copyright [Opticos Studios](http://opticos.studio) 2020
