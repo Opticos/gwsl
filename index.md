@@ -66,4 +66,7 @@ Miscellaneous
 
 [Installing a Graphical Linux Package Manager](./tutorials/package-managers.html).
 
+### Help and Support
+
+Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
