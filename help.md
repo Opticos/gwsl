@@ -15,7 +15,6 @@ fake (at) email (dot) com
 
 ![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)
 
-![Discord Shield](https://discord.com/api/guilds/[618185330289541130]/widget.png?style=shield)
 
 ### Reporting a bug? Here is how to find bug reports and logs
 
