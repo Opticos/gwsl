@@ -64,6 +64,6 @@ Digging Deeper
 
 Miscellaneous
 
-[Installing a Graphical Linux Package Manager](./package-managers.html).
+[Installing a Graphical Linux Package Manager](./tutorials/package-managers.html).
 
 
