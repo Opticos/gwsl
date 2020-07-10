@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Help
-description: Help Using GWSL 2
+description: Help Using GWSL
 ---
 
 ## Help
