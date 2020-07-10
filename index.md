@@ -22,7 +22,7 @@ There are several alternative XServers for Windows 10. Some are proprietary (and
 
 GWSL is Free.
 
-GWSL Builds on the VCXSRV XServer. One of the best open source Windows Xservers. GWSL uses VCXSRV as a backend but adds many useful features. 
+GWSL Builds on the VCXSRV XServer, one of the best open source Windows Xservers. GWSL uses VCXSRV as a backend but adds many useful features. 
 
 ### System Requirements
 
