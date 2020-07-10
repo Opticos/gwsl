@@ -36,31 +36,31 @@ Windows 10 Version 2004
 
 Some tutorials to help you get your setup up and running
 
-[Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
+TODO: [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
 
-[Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
+TODO: [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
 
-[Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
+TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
 
-[Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
+TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
 
 #### More
 
 Digging Deeper
 
-[Creating a Linux App Shortcut on Windows](https://guides.github.com/features/mastering-markdown/).
+TODO: [Creating a Linux App Shortcut on Windows](https://guides.github.com/features/mastering-markdown/).
 
-[Changing DPI Options](https://guides.github.com/features/mastering-markdown/).
+TODO: [Changing DPI Options](https://guides.github.com/features/mastering-markdown/).
 
-[Changing the GTK Theme](https://guides.github.com/features/mastering-markdown/).
+TODO: [Changing the GTK Theme](https://guides.github.com/features/mastering-markdown/).
 
-[Using the Integrated Linux App Launcher](https://guides.github.com/features/mastering-markdown/).
+TODO: [Using the Integrated Linux App Launcher](https://guides.github.com/features/mastering-markdown/).
 
-[Using Remote Linux Apps With X](https://guides.github.com/features/mastering-markdown/).
+TODO: [Using Remote Linux Apps With X](https://guides.github.com/features/mastering-markdown/).
 
-[Creating Windows Shortcuts for Remote Linux *Apps* With X](https://guides.github.com/features/mastering-markdown/).
+TODO: [Creating Windows Shortcuts for Remote Linux *Apps* With X](https://guides.github.com/features/mastering-markdown/).
 
-[Creating Windows Shortcuts *ENTIRE* Remote Linux *Machines* With X](https://guides.github.com/features/mastering-markdown/).
+TODO: [Creating Windows Shortcuts *ENTIRE* Remote Linux *Machines* With X](https://guides.github.com/features/mastering-markdown/).
 
 Miscellaneous
 
