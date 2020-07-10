@@ -23,4 +23,4 @@ Steps steps and more steps
 
 ### Donate
 
-{% include donate.html %}
+[Donate To Opticos Studios (It is very helpful.)](https://sites.google.com/bartimee.com/opticos-studios/donate#h.p_6-1t7x2XFvCP).
