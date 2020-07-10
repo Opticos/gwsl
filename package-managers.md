@@ -10,13 +10,17 @@ There are several to choose from depending on your Linux distribution. Here are 
 ##### Package Managers for Debian-Based Distributions Using APT
 
 *  Synaptic - Easy to Install and Very Powerful.
+
    In the WSL terminal:
+   
    ```bash
    sudo apt install synaptic
    ```
 
 *  Gnome Software - Streamlined But Quirky and Buggy at Times.
+
    In the WSL terminal:
+   
    ```bash
    sudo apt install gnome-software
    sudo apt install network-manager #This is required due to a WSL quirk
