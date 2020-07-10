@@ -2,6 +2,7 @@
 layout: default
 title: Help
 description: Help Using GWSL
+permalink: /help.html
 ---
 
 ## Help
