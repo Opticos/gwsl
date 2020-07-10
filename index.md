@@ -78,4 +78,4 @@ Need help? Found a bug? Check out our [help page](https://opticos.github.io/gwsl
 
 ### Donate
 
-{% include donate.html %}
+[Donate To Opticos Studios (It is very helpful.)](https://sites.google.com/bartimee.com/opticos-studios/donate#h.p_6-1t7x2XFvCP).
