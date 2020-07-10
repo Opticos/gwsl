@@ -19,9 +19,3 @@ sjlfjslkdjflks
 
 Steps steps and more steps
 
-##### Copyright [Opticos Studios](http://opticos.studio) 2020
-
-
-### Donate
-
-[Donate To Opticos Studios (It is very helpful)](https://sites.google.com/bartimee.com/opticos-studios/donate#h.p_6-1t7x2XFvCP).
