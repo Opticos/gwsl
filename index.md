@@ -66,7 +66,7 @@ Miscellaneous
 
 [Installing The Synaptic Package Manager](https://guides.github.com/features/mastering-markdown/).
 
-[Installing Gnome Software](https://guides.github.com/features/mastering-markdown/).
+[Installing Gnome Software Manager](https://guides.github.com/features/mastering-markdown/).
 
 
 ### Help & Support
