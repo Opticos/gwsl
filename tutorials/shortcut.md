@@ -8,7 +8,7 @@ permalink: /tutorials/shortcut.html
 To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Creator".
 
 The Shortcut Creator UI:
-![UI Help](/shortcut.png)
+![UI Help](/shortcut.png  =430x538)
 
 
 
