@@ -8,9 +8,10 @@ permalink: /tutorials/shortcut.html
 To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Creator".
 
 The Shortcut Creator UI:
+
 <img src="https://opticos.github.io/gwsl/tutorials/shortcut.png" width="430">
 
-### Key:
+### Options:
 
 Basic Options
 1. Current App Icon - This is the icon that will be used for the Windows shortcut. The icon is automatically chosen from the Shortcut Label. 
