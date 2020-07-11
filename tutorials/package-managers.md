@@ -16,6 +16,7 @@ There are several to choose from depending on your Linux distribution. Here are 
    ```bash
    sudo apt install synaptic
    ```
+   To run Synaptic, use ```sudo synaptic```
 
 *  Gnome Software - Streamlined But Quirky and Buggy at Times.
 
@@ -23,12 +24,20 @@ There are several to choose from depending on your Linux distribution. Here are 
    
    ```bash
    sudo apt install gnome-software
-   sudo apt install network-manager #This is required due to a WSL quirk
+   sudo apt install network-manager-pptp-gnome #This is required due to a WSL quirk
    ```
-
+   To run Gnome Software, use ```sudo gnome-software``` after starting [DBus](https://opticos.github.io/gwsl/tutorials/dbus.html).
+   NOTE: To create a shortcut with the shortut creator, be sure to set "Enable DBus" under "More Options" to True:
+   
 ##### Package Managers for OpenSuse
 
 *  YaST - The Recommended Default.
+   In the WSL terminal:
+   
+   ```bash
+   sudo zypper install xterm
+   ```
+   To run YaST, use ```sudo xterm yast2```
 
 ##### Package Managers for Other Distributions
 
@@ -36,13 +45,5 @@ There are hundreds of other Linux Distributions. Try checking [this page](https:
 
 ## Creating a Windows Shorcut for the Package Manager
 
-1.  Open the GWSL Dashboard.
-
-2.  Click Shortcut Creator.
-
-3.  Write the title of the shortcut in the first section and the command to run the manager in the second.
-
-4.  Under "More Options", set "Run as Root" to True. NOTE: If you are using Gnome-Software, set "Use DBus" to true as well.
-
-5.  Test your shortcut configuration using the "Test Shortcut" Button. If it works, click "save and add". The package manager of your choice will be added to the Windows 10 Start menu.
+Use the [Shortcut Creator](https://opticos.github.io/gwsl/tutorials/shortcut.html) with the command and name of the program. Be sure to set "Run as Root" to True.
 
