@@ -8,7 +8,9 @@ permalink: /tutorials/shortcut.html
 To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Creator".
 
 The Shortcut Creator UI:
-![UI Help](/shortcut.png  =430x538)
+![UI Help](/shortcut.png)
+
+<img src="https://opticos.github.io/gwsl/tutorials/shortcut.png" width="48">
 
 
 
