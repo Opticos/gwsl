@@ -14,6 +14,7 @@ The Shortcut Creator UI:
 ### Key:
 
 Basic Options
+
 1. Current App Icon - This is the icon that will be used for the Windows shortcut. The icon is automatically chosen from the Shortcut Label. 
 2. Shortcut Label - This is the label that will apper on your Windows shortcut. The label is used to find an icon for the shortcut.
 3. Shortcut Command - This is the Bash command that will launch your app.
@@ -23,6 +24,7 @@ Basic Options
 7. More/Less Options - Show and hide advanced shortcut options.
 
 Advanced Options
+
 8. Display Mode - Choose if you want to run the app in GWSL Single Window, Multi Window, or Fullscreen mode. If Default is selected, the current app mode is used.
 9. GTK Scale Mode - Override the HI-DPI scale factor for GTK. If Default is selected, the current GTK scale factor for the current machine is used. 
 10. QT Scale Mode - Override the HI-DPI scale factor for QT. If Default is selected, the current QT scale factor for the current machine is used.
