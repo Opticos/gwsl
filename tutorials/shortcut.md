@@ -20,7 +20,6 @@ Basic Options:
 5.  Reset Icon - Click this if the icon automatically selected by the Shortcut Creator does not match that of the desired app. 
 6.  Help - Opens this help page.
 7.  More/Less Options - Show and hide advanced shortcut options.
-
 Advanced Options:
 8.  Display Mode - Choose if you want to run the app in GWSL Single Window, Multi Window, or Fullscreen mode. If Default is selected, the current app mode is used.
 9.  GTK Scale Mode - Override the HI-DPI scale factor for GTK. If Default is selected, the current GTK scale factor for the current machine is used. 
