@@ -48,7 +48,7 @@ TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/maste
 
 Digging Deeper
 
-TODO: [Creating a Linux App Shortcut on Windows](https://guides.github.com/features/mastering-markdown/).
+[Creating a Linux App Shortcut on Windows](./tutorials/shortcut.html).
 
 TODO: [Changing DPI Options](https://guides.github.com/features/mastering-markdown/).
 
