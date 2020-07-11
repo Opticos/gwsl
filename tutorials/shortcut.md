@@ -3,5 +3,13 @@ layout: default
 title: Using the GWSL Shortcut Creator
 permalink: /tutorials/shortcut.html
 ---
-## Choosing a Package Manager
+## Using the Shortcut Creator
 
+To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Creator".
+
+The Shortcut Creator UI:
+![UI Help](/shortcut.png)
+
+
+
+You can also use the app launcher
