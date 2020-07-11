@@ -11,7 +11,7 @@ The Shortcut Creator UI:
 
 <img src="https://opticos.github.io/gwsl/tutorials/shortcut.png" width="430">
 
-### Options:
+### Key:
 
 Basic Options
 1. Current App Icon - This is the icon that will be used for the Windows shortcut. The icon is automatically chosen from the Shortcut Label. 
