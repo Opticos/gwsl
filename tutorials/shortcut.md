@@ -13,7 +13,7 @@ The Shortcut Creator UI:
 
 ### Key:
 
-Basic Options
+#### Basic Options
 
 1) Current App Icon - This is the icon that will be used for the Windows shortcut. The icon is automatically chosen from the Shortcut Label. 
 
@@ -29,7 +29,7 @@ Basic Options
 
 7) More/Less Options - Show and hide advanced shortcut options.
 
-Advanced Options
+#### Advanced Options
 
 8) Display Mode - Choose if you want to run the app in GWSL Single Window, Multi Window, or Fullscreen mode. If Default is selected, the current app mode is used.
 
