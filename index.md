@@ -36,9 +36,9 @@ Windows 10 Version 2004
 
 Some tutorials to help you get your setup up and running
 
-TODO: [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
+[Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/1-introduction).
 
-TODO: [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
+[Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
 
 TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
 
@@ -50,7 +50,7 @@ Digging Deeper
 
 [Creating a Linux App Shortcut on Windows](./tutorials/shortcut.html).
 
-TODO: [Changing DPI Options](https://guides.github.com/features/mastering-markdown/).
+[Changing DPI Options](./tutorials/dpi.html).
 
 TODO: [Changing the GTK Theme](https://guides.github.com/features/mastering-markdown/).
 
