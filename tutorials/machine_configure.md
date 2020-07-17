@@ -5,73 +5,42 @@ permalink: /tutorials/machine_configure.html
 ---
 ## Using the GWSL Machine Manager
 
-### Contents:
-
+<!-- ### Contents:
 [Accessing Machine Settings](#accessing-machine-settings)
+[Using the Manager](#gwsl-machine-manager-overview) -->
 
-[Using the Manager](#gwsl-manager-overview)
+### Getting Started
+
+After a new WSL Distro is installed, several steps are required to get it up and running with GWSL: 
+1.  The first step is to enable "Auto-Export Display" in the Distro configuration.
+2.  After this, the user may tweak other settings explained on this page.
 
 
-### Accessing Machine Settings ### 
+### Accessing Other Distro Settings ### 
 
-To access per-machine-settings, open the GWSL Dashboard and click "GWSL Machine Tools".
+To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine Tools".
 
 Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area or by clicking the icon in the Start Menu.
 
-#### Choose the WSl machine you want to configure:
+#### Choose the WSl Distro you want to configure:
 
 <img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300">
 
-### GWSL Manager Overview ###
+### GWSL Distro Manager Overview ###
 
 <img src="https://opticos.github.io/gwsl/tutorials/configure.png" width="300">
 
-
 ### Key:
 
-## basic ##
+1) Display Auto Export - With other XServers for Windows 10, the user must type in several commands each time they launch a gui app. With GWSL, clicking this button makes these commands run automatically when the current WSL Distro starts. This must be enabled for every new WSL distro. NOTE: After converting a WSL machine between WSL 1 and 2, this button must be pressed again. 
 
-#### Basic Options
+2) Configure DBus - Some Gnome apps have trouble running on WSL. Clicking this button attempts to enable DBus to fix these issues. The root password of the current WSL Distro is required to do this. NOTE: This option is only available on Debian-based distributions.
 
-1) Current App Icon - This is the icon that will be used for the Windows shortcut. The icon is automatically chosen from the Shortcut Label. 
+3) GTK DPI Toggle - This button toggles the default DPI environment variable for GTK.
 
-2) Shortcut Label - This is the label that will apper on your Windows shortcut. The label is used to find an icon for the shortcut.
+4) QT DPI Toggle - This button toggles the default DPI environment variable for QT. 
 
-3) Shortcut Command - This is the Bash command that will launch your app.
+5) Theme Chooser - Unstable: This option allows users to set the default GTK theme of the Distro being configured. This attempts to scan ```/usr/share/themes/``` for GTK themes.
 
-4) Run In - The WSL machine that will run the app. Be sure that the app you want to pin is installed on the machine you select. 
+6) Help - Reboot the current WSL Distro.
 
-5) Reset Icon - Click this if the icon automatically selected by the Shortcut Creator does not match that of the desired app. 
-
-6) Help - Opens this help page.
-
-7) More/Less Options - Show and hide advanced shortcut options.
-
-
-## advanced ##
-
-#### Advanced Options
-
-8) Display Mode - Choose if you want to run the app in GWSL Single Window, Multi Window, or Fullscreen mode. If Default is selected, the current app mode is used.
-
-9) GTK Scale Mode - Override the HI-DPI scale factor for GTK. If Default is selected, the current GTK scale factor for the current machine is used. 
-
-10) QT Scale Mode - Override the HI-DPI scale factor for QT. If Default is selected, the current QT scale factor for the current machine is used.
-
-11) Shared Clipboard - Enable or Disable the shared clipboard for this app. If set to Disabled, the Windows clipboard will not synchronize with the Linux app. If set to Default, the current default clipboard mode is used.
-
-12) Color Mode - If set to Follow Windows, GTK will try to synchronize light and dark theme modes with Windows.
-
-13) Run As Root - If set to true, the shortcut will ask for a password at launch and run the command with sudo.
-
-14) Use DBus - This only works on Debian-based distros. Use it for Gnome apps if they do not start. Ex. Gnome Software.
-
-15) Experimental Flags - These rarely work. If GTK and QT scaling does not work, try using these flags.
-
-16) Add to Start Menu - Add a shortcut for the app to the Windows Start Menu with these current settings. It is reccomended to test your configuration with "Test Configuration" before creating the shortcut.
-
-17)  Test Configuration - Test the current settings to make sure everything works before adding your shortcut.
-
-### More
-
-You can also use the [Linux App Launcher](https://opticos.github.io/gwsl/tutorials/launcher.html) to create shortcuts.
