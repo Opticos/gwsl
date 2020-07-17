@@ -7,16 +7,20 @@ permalink: /tutorials/machine_configure.html
 
 Contents:
 
-[Section 1](#basic)
+[Accessing Machine Settings](#accessing-machine-settings)
 
 [Section 2](#advanced)
 
 
-To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Creator".
+### Accessing Machine Settings ### 
 
-The Shortcut Creator UI:
+To access per-machine-settings, open the GWSL Dashboard and click "GWSL Machine Tools".
 
-<img src="https://opticos.github.io/gwsl/tutorials/shortcut.png" width="430">
+Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area.
+
+#### Choose the WSl machine you want to configure:
+
+<img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300">
 
 ### Key:
 
