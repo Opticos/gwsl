@@ -24,6 +24,9 @@ Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notificatio
 
 ### GWSL Manager Overview ###
 
+<img src="https://opticos.github.io/gwsl/tutorials/configure.png" width="300">
+
+
 ### Key:
 
 ## basic ##
