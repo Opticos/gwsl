@@ -3,24 +3,26 @@ layout: default
 title: Preparing & Managing WSL Machines
 permalink: /tutorials/machine_configure.html
 ---
-## Preparing WSL distros for use with GWSL
+## Using the GWSL Machine Manager
 
-Contents:
+### Contents:
 
 [Accessing Machine Settings](#accessing-machine-settings)
 
-[Section 2](#advanced)
+[Using the Manager](#gwsl-manager-overview)
 
 
 ### Accessing Machine Settings ### 
 
 To access per-machine-settings, open the GWSL Dashboard and click "GWSL Machine Tools".
 
-Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area.
+Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area or by clicking the icon in the Start Menu.
 
 #### Choose the WSl machine you want to configure:
 
 <img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300">
+
+### GWSL Manager Overview ###
 
 ### Key:
 
