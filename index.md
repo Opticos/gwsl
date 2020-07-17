@@ -40,9 +40,12 @@ Some tutorials to help you get your setup up and running
 
 [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install).
 
-TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
+[Preparing and Configuring a WSL Distro for X](./tutorials/machine_configure.html).
 
-TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
+<!--
+TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
+TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).-->
+
 
 #### More
 
