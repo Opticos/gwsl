@@ -15,12 +15,12 @@ After a new WSL Distro is installed, several steps are required to get it up and
 1.  The first step is to enable "Auto-Export Display" in the Distro configuration.
 2.  After this, the user may tweak other settings explained on this page.
 
+Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area or by clicking the icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G```.
 
 ### Accessing Other Distro Settings ### 
 
 To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine Tools".
 
-Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area or by clicking the icon in the Start Menu.
 
 <img src="https://opticos.github.io/gwsl/tutorials/dashboardlink.png" width="500">
 
