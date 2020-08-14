@@ -15,7 +15,7 @@ fake (at) email (dot) com
 
 ### Visit Our Discord Server
 
-[![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.com/invite/3dVHZ5)
+[![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.gg/VkvNgkH)
 
 
 ### Reporting a bug? Here is how to find bug reports and logs
