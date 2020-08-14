@@ -11,7 +11,7 @@ permalink: /help.html
 
 ### Contact us by email
 
-fake (at) email (dot) com
+opticosstudios (at) gmail (dot) com
 
 ### Visit Our Discord Server
 
