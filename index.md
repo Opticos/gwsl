@@ -51,6 +51,8 @@ TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/maste
 
 Digging Deeper
 
+TODO: [Frequently Asked Questions](./tutorials/shortcut.html).
+
 [Creating a Linux App Shortcut on Windows](./tutorials/shortcut.html).
 
 [Changing DPI Options](./tutorials/dpi.html).
