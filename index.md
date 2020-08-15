@@ -12,8 +12,8 @@ title: GWSL
 
 GWSL automates the process of running X on top of WSL and over SSH:
 *  It lets you easily run graphical Linux apps on Windows 10.
-*  It lets you run graphical applications located on remote Linux machines.
-*  It lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros.
+*  It lets you run graphical apps located on remote Linux machines.
+*  It provides a simple UI for launching Linux apps, managing them graphicaly, and creating customized Windows shortcuts for them.
 *  All this at the click of a button! No memorization of commands necessary. *Easy!*
 
 Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watch the video ↓
