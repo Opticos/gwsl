@@ -7,7 +7,7 @@ permalink: /help.html
 
 ## Help
 
-###Need help? Found a bug? Have a new idea for a great feature? Contact us!
+Need help? Found a bug? Have a new idea for a great feature? Contact us!
 
 ### Contact us by email
 
