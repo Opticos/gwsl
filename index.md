@@ -10,7 +10,11 @@ title: GWSL
 
 ### What on Earth does this do? What is it for? How can it help me?
 
-GWSL lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros! All at the click of a button! No memorization of commands necessary! *Easy!!!*
+GWSL automates the process of running X on top of WSL and over SSH:
+*  It lets you easily run graphical Linux apps on Windows 10.
+*  It lets you run graphical applications located on remote Linux machines.
+*  It lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros.
+*  All this at the click of a button! No memorization of commands necessary. *Easy!*
 
 Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watch the video ↓
 
@@ -26,6 +30,8 @@ There are several alternative XServers for Windows 10. Some are proprietary (and
 
 GWSL is Free.
 
+GWSL is easy to install.
+
 GWSL Builds on the VCXSRV XServer, one of the best open source Windows Xservers. GWSL uses VCXSRV as a backend but adds many useful features. 
 
 ### System Requirements
@@ -38,13 +44,13 @@ Windows 10 Version 2004
 
 #### Getting Started
 
-Some tutorials to help you get your setup up and running
+Some tutorials to get you setup and running
 
 [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/windows/wsl/about).
 
 [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-[Preparing and Configuring a WSL Distro for X](./tutorials/machine_configure.html).
+[Using GWSL](./tutorials/machine_configure.html).
 
 <!--
 TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
