@@ -4,6 +4,8 @@ title: GWSL
 ---
 ## GWSL
 
+<img src="https://opticos.github.io/gwsl/tutorials/banner.png" width="500">
+
 ### What on Earth does this do? What is it for? How can it help me?
 
 GWSL lets you easily run graphical Linux apps on Windows 10 . . . *AND* it lets you run graphical applications located on *remote* Linux machines on Window 10 . . . *AND* it lets you manage these apps graphicaly, create Windows shortcuts for them, customize these shortcuts, and even manage/configure WSL distros! All at the click of a button! No memorization of commands necessary! *Easy!!!*
