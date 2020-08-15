@@ -34,7 +34,7 @@ GWSL is easy to install.
 
 GWSL Builds on the VCXSRV XServer, one of the best open source Windows Xservers. GWSL uses VCXSRV as a backend but adds many useful features. 
 
-### System Requirements
+### Minimum System Requirements
 
 Windows 10 Version 2004
 
