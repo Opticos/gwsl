@@ -7,13 +7,13 @@ permalink: /help.html
 
 ## Help
 
-Need help? Found a bug? Have a new idea for a great feature? Contact us!
+Need help? Found a bug? Have an idea for a great new feature? Contact us!
 
 ### Contact us by email
 
 opticosstudios (at) gmail (dot) com
 
-### Visit Our Discord Server
+### Visit Our Discord Server (Faster Responses)
 
 [![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.gg/VkvNgkH)
 
