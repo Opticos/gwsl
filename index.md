@@ -32,7 +32,7 @@ GWSL is Free.
 
 GWSL is easy to install.
 
-GWSL Builds on the VCXSRV XServer, one of the best open source Windows Xservers. GWSL uses VCXSRV as a backend but adds many useful features. 
+GWSL Builds on the VCXSRV XServer, one of the best open source Windows Xservers. It uses VCXSRV as a backend but adds many useful features. 
 
 ### Minimum System Requirements
 
