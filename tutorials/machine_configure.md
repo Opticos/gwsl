@@ -4,7 +4,7 @@ title: Preparing & Managing WSL Machines
 permalink: /tutorials/machine_configure.html
 ---
 ## Using the GWSL Machine Manager
-
+##### Note: These steps will only work if bash is the default Linux shell. If you don't know what this means, you're probably good to go.
 <!-- ### Contents:
 [Accessing Machine Settings](#accessing-machine-settings)
 [Using the Manager](#gwsl-machine-manager-overview) -->
