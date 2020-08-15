@@ -4,7 +4,7 @@ title: GWSL
 ---
 ## GWSL
 
-<img src="https://opticos.github.io/gwsl/tutorials/banner.png" width="500">
+<img src="https://opticos.github.io/gwsl/tutorials/banner.png">
 
 ### What on Earth does this do? What is it for? How can it help me?
 
