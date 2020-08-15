@@ -2,9 +2,11 @@
 layout: homepage
 title: GWSL
 ---
-## GWSL
+
 
 <img src="https://opticos.github.io/gwsl/tutorials/banner.png">
+
+## GWSL
 
 ### What on Earth does this do? What is it for? How can it help me?
 
