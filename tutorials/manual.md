@@ -10,7 +10,8 @@ permalink: /tutorials/manual.html
 4.  [Configuring a WSL Distro for use with GWSL](#configuring-a-wsl-distro-for-use-with-gwsl)
 5.  [Using the GWSL Shortcut Creator](#using-the-gwsl-shortcut-creator)
 6.  [Using the Integrated Linux App Launcher](#using-the-integrated-linux-app-launcher)
-7.  [Using GWSL with SSH](#using-gwsl-with-ssh)
+7.  [Using GWSL with the Linux Terminal](#using-gwsl-with-the-linux-terminal)
+8.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 
 
 ### GWSL Manual
@@ -30,6 +31,11 @@ To make sure WSL is installed correctly, type ```wsl.exe``` in the command line 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](	https://www.microsoft.com/store/apps/9NL6KD1H33V3).
 
 #### The GWSL User Interface ####
+##### The GWSL Dashboard 
+
+You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
+
+Overview: The GWSL Dashboard is the interface you can use to configure WSL machines, create shortcuts, and quickly launch apps.
 
 
 #### Configuring a WSL Distro for use with GWSL #### 
@@ -40,5 +46,6 @@ GWSL can be easily installed from the Microsoft Store. If it is not already inst
 
 #### Using the Integrated Linux App Launcher #### 
 
+#### Using GWSL with the Linux Terminal ####
 
 #### Using GWSL with SSH #### 
