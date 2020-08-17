@@ -31,11 +31,11 @@ To make sure WSL is installed correctly, type ```wsl.exe``` in the command line 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](	https://www.microsoft.com/store/apps/9NL6KD1H33V3).
 
 ### The GWSL User Interface ###
-#### The GWSL Dashboard 
+#### The Dashboard 
 
 You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
 
-Overview: The GWSL Dashboard is the interface you can use to configure WSL machines, create shortcuts, and quickly launch apps.
+Overview: The GWSL Dashboard is where you can configure WSL machines, create shortcuts, and quickly launch apps.
 
 
 ### Configuring a WSL Distro for use with GWSL ###
