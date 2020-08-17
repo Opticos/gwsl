@@ -40,11 +40,13 @@ Windows 10 Version 2004
 
 
 
-### Tutorials
+### Manual
 
-#### Getting Started
+Let's get you setup and running.
 
-Some tutorials to get you setup and running
+[GWSL Manual](https://docs.microsoft.com/en-us/windows/wsl/about).
+
+Quick Links:
 
 [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/windows/wsl/about).
 
@@ -54,7 +56,7 @@ Some tutorials to get you setup and running
 
 <!--
 TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
-TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).-->
+TODO: [Enable Dbus (To Run Gnome Apps)](https://guides.github.com/features/mastering-markdown/).
 
 
 #### More
@@ -80,6 +82,8 @@ TODO: [Creating Windows Shortcuts *ENTIRE* Remote Linux *Machines* With X](https
 Miscellaneous
 
 [Installing a Graphical Linux Package Manager](./tutorials/package-managers.html).
+
+-->
 
 ### Help and Support
 
