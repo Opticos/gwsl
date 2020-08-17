@@ -42,7 +42,7 @@ Windows 10 Version 2004
 
 ### Using GWSL
 
-[GWSL Manual](https://docs.microsoft.com/en-us/windows/wsl/about)
+[GWSL Manual](./tutorials/manual.html)
 
 Quick Links:
 
