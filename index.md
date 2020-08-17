@@ -40,11 +40,9 @@ Windows 10 Version 2004
 
 
 
-### Manual
+### Using GWSL
 
-Let's get you setup and running.
-
-[GWSL Manual](https://docs.microsoft.com/en-us/windows/wsl/about).
+[GWSL Manual](https://docs.microsoft.com/en-us/windows/wsl/about)
 
 Quick Links:
 
@@ -84,6 +82,11 @@ Miscellaneous
 [Installing a Graphical Linux Package Manager](./tutorials/package-managers.html).
 
 -->
+
+### Frequently Asked Questions
+*  Why does GWSL not seem to work with Linux shells other than Bash? *This is by design. Only Bash is supported.*
+*  What will happen when WSL2 gets official Wayland support? *We are just as excited about this as you are. Till it is available, GWSL will only function as an XServer. When Wayland is available, there will be an option to swicth between Wayland and X as a GWSL backend. The shortcut creator and app launcher will continue to work in the new Wayland mode.*
+*  Why aren't there more questions? *We are woking on this... Not many questions have been asked frequently enough to put here. Start asking!*
 
 ### Help and Support
 
