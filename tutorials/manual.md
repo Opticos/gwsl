@@ -9,10 +9,12 @@ permalink: /tutorials/manual.html
 3.  Configuring a WSL Distro for use with GWSL
 4.  Using the GWSL Shortcut Creator
 5.  Using the Integrated Linux App Launcher
-6.  Using GWSL with SSH
+6.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 
 
 ### GWSL Manual
+
+#### Prerequisites ####
 
 #### The GWSL User Interface ####
 
