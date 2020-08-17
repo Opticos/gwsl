@@ -23,7 +23,7 @@ Once Windows is up to date, be sure you have the WSL feature installed and confi
 *  [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/windows/wsl/about)
 *  [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-To verify WSL is installed correctly, type ```wsl.exe``` in the command line and verify that there are no errors.
+To make sure WSL is installed correctly, type ```wsl.exe``` in the command line and verify that there are no errors.
 
 #### Installing GWSL ####
 
