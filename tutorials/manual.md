@@ -3,7 +3,7 @@ layout: default
 title: GWSL Manual
 permalink: /tutorials/manual.html
 ---
-### Table of Contents
+## Table of Contents
 1.  [Prerequisites](#prerequisites)
 2.  [Installing GWSL](#installing-gwsl)
 3.  [The GWSL User Interface](#the-gwsl-user-interface)
@@ -14,9 +14,9 @@ permalink: /tutorials/manual.html
 8.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 
 
-### GWSL Manual
+## GWSL Manual
 
-#### Prerequisites ####
+### Prerequisites ###
 
 GWSL requires [Windows 10 version 2004](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-update). If you do not have it, please update Windows to continue.
 
@@ -26,26 +26,26 @@ Once Windows is up to date, be sure you have the WSL feature installed and confi
 
 To make sure WSL is installed correctly, type ```wsl.exe``` in the command line and verify that there are no errors.
 
-#### Installing GWSL ####
+### Installing GWSL ###
 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](	https://www.microsoft.com/store/apps/9NL6KD1H33V3).
 
-#### The GWSL User Interface ####
-##### The GWSL Dashboard 
+### The GWSL User Interface ###
+#### The GWSL Dashboard 
 
 You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
 
 Overview: The GWSL Dashboard is the interface you can use to configure WSL machines, create shortcuts, and quickly launch apps.
 
 
-#### Configuring a WSL Distro for use with GWSL #### 
+### Configuring a WSL Distro for use with GWSL ###
 
 
-#### Using the GWSL Shortcut Creator #### 
+### Using the GWSL Shortcut Creator ###
 
 
-#### Using the Integrated Linux App Launcher #### 
+### Using the Integrated Linux App Launcher ### 
 
-#### Using GWSL with the Linux Terminal ####
+### Using GWSL with the Linux Terminal ###
 
-#### Using GWSL with SSH #### 
+### Using GWSL with SSH ###
