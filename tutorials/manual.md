@@ -76,4 +76,4 @@ Auto-exporting does not work if Fish is the default shell but you can use this s
     set -e wsl2_d_tmp
     set -e ipconfig_exec
 `
-^Add this to the end of `config.fish` and you should be good to go!
+Add this to the end of `config.fish` and you should be good to go!
