@@ -54,7 +54,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 ### Using GWSL with other Shells ###
 #### Using X with Fish
 Auto-exporting does not work if Fish is the default shell but you can use this script:
-```# WSL2 display export
+`# WSL2 display export
 set --export WSL2 1
 set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
 if which ipconfig.exe >/dev/null
@@ -72,6 +72,5 @@ else
 end
 
 set -e wsl2_d_tmp
-set -e ipconfig_exec
-```
-^Add this to the end of ```config.fish``` and you should be good to go!
+set -e ipconfig_exec`
+^Add this to the end of `config.fish` and you should be good to go!
