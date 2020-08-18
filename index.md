@@ -84,7 +84,29 @@ Miscellaneous
 -->
 
 ### Frequently Asked Questions
-*  Why doesn't GWSL seem to work with Linux shells other than Bash? *This is by design. Only Bash is supported.*
+*  Why doesn't GWSL seem to work with Linux shells other than Bash? *This is by design. Only Bash is supported for auto export. However, you can still make x work with fish.*
+  ```
+  # WSL2 display export
+  set --export WSL2 1
+  set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
+  if which ipconfig.exe >/dev/null
+      set ipconfig_exec (which ipconfig.exe)
+  end
+
+  set wsl2_d_tmp (eval $ipconfig_exec | grep -n -m 1 "Default Gateway.*: [0-9a-z]" | cut -d : -f 1)
+  if test -n "$wsl2_d_tmp"
+      set first_line (expr $wsl2_d_tmp - 4)
+      set wsl2_d_tmp (eval $ipconfig_exec | sed $first_line,$wsl2_d_tmp!d | grep IPv4 | cut -d : -f 2 | sed -e "s|\s||g" -e "s|\r||g")
+      set --export DISPLAY "$wsl2_d_tmp:0"
+      set -e first_line
+  else
+      set --export DISPLAY (cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+  end
+
+  set -e wsl2_d_tmp
+  set -e ipconfig_exec
+  ```
+  ^Add this to the end of config.fish and you should be good to go!
 *  What will happen when WSL2 gets official Wayland support? *We are just as excited about this as you are. Till it is available, GWSL will only function as an XServer. When Wayland is available, there will be an option to swicth between Wayland and X as a GWSL backend. The shortcut creator and app launcher will continue to work in the new Wayland mode.*
 *  Why aren't there more questions? *We are woking on this... Not many questions have been asked frequently enough to put here. Start asking!*
 
