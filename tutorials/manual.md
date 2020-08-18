@@ -14,6 +14,7 @@ permalink: /tutorials/manual.html
 8.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 9.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
 
+***
 
 ## GWSL Manual
 
