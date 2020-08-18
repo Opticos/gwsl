@@ -54,24 +54,26 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 
 ### Using GWSL with other Shells ###
 #### Using X with Fish
-Auto-exporting does not work if Fish is the default shell but you can use this script:
-`# WSL2 display export
-set --export WSL2 1
-set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
-if which ipconfig.exe >/dev/null
-    set ipconfig_exec (which ipconfig.exe)
-end
+Auto-exporting does not work if Fish is the default shell but you can use this script.
+`
+    # WSL2 display export
+    set --export WSL2 1
+    set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
+    if which ipconfig.exe >/dev/null
+        set ipconfig_exec (which ipconfig.exe)
+    end
 
-set wsl2_d_tmp (eval $ipconfig_exec | grep -n -m 1 "Default Gateway.*: [0-9a-z]" | cut -d : -f 1)
-if test -n "$wsl2_d_tmp"
-    set first_line (expr $wsl2_d_tmp - 4)
-    set wsl2_d_tmp (eval $ipconfig_exec | sed $first_line,$wsl2_d_tmp!d | grep IPv4 | cut -d : -f 2 | sed -e "s|\s||g" -e "s|\r||g")
-    set --export DISPLAY "$wsl2_d_tmp:0"
-    set -e first_line
-else
-    set --export DISPLAY (cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
-end
+    set wsl2_d_tmp (eval $ipconfig_exec | grep -n -m 1 "Default Gateway.*: [0-9a-z]" | cut -d : -f 1)
+    if test -n "$wsl2_d_tmp"
+        set first_line (expr $wsl2_d_tmp - 4)
+        set wsl2_d_tmp (eval $ipconfig_exec | sed $first_line,$wsl2_d_tmp!d | grep IPv4 | cut -d : -f 2 | sed -e "s|\s||g" -e "s|\r||g")
+        set --export DISPLAY "$wsl2_d_tmp:0"
+        set -e first_line
+    else
+        set --export DISPLAY (cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+    end
 
-set -e wsl2_d_tmp
-set -e ipconfig_exec`
+    set -e wsl2_d_tmp
+    set -e ipconfig_exec
+`
 ^Add this to the end of `config.fish` and you should be good to go!
