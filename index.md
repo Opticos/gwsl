@@ -103,7 +103,8 @@ else
 end
 
 set -e wsl2_d_tmp
-set -e ipconfig_exec```
+set -e ipconfig_exec
+```
   ^Add this to the end of ```config.fish``` and you should be good to go!
 *  What will happen when WSL2 gets official Wayland support? *We are just as excited about this as you are. Till it is available, GWSL will only function as an XServer. When Wayland is available, there will be an option to swicth between Wayland and X as a GWSL backend. The shortcut creator and app launcher will continue to work in the new Wayland mode.*
 *  Why aren't there more questions? *We are woking on this... Not many questions have been asked frequently enough to put here. Start asking!*
