@@ -32,6 +32,8 @@ To make sure WSL is installed correctly, type ```wsl.exe``` in the command line 
 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](	https://www.microsoft.com/store/apps/9NL6KD1H33V3).
 
+Note: Some Antiviruses might detect GWSL and block its installations. This is a known bug in Pyinstaller, the program we use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
+
 ### The GWSL User Interface ###
 #### The Dashboard 
 
