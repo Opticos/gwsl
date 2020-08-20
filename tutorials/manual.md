@@ -16,6 +16,8 @@ permalink: /tutorials/manual.html
 9.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 10.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
 11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
+12.  [Finding Logs](#finding-logs)
+
 
 ***
 
@@ -57,11 +59,6 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 
 ### Installing a Graphical Package Manager ###
 
----
-layout: default
-title: Installing a Graphical Package Manager on WSL
-permalink: /tutorials/package-managers.html
----
 #### Choosing a Package Manager
 
 There are several to choose from depending on your Linux distribution. Here are some common ones.
@@ -135,3 +132,27 @@ set -e ipconfig_exec
 Add this to the end of `config.fish` and you should be good to go!
 
 ### Using GWSL Configuration Files ###
+
+#### The GWSL configuration file allows users to block certain applications and distros from showing up in the app launcher and machine chooser.
+1.  Open Windows Explorer.
+
+2.  In the path entry box, paste ```%AppData%/GWSL/```and hit enter.
+
+3.  The configuration file is called ```settings.json```.
+
+4.  Stop the GWSL Service and open this file in your favorite text editor to make changes.
+
+#### Blocking Distros
+
+
+### Finding Logs ###
+
+#### Reporting a bug? Here is how to find bug reports and logs
+1.  Open Windows Explorer.
+
+2.  In the path entry box, paste ```%AppData%/GWSL/```and hit enter.
+
+3.  The logs are stored in ```dashboard.log``` and ```service.log```.
+
+4.  Include these logs in support emails or share them in the Discord help server.
+
