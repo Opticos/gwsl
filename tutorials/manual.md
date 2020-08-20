@@ -45,7 +45,9 @@ Note: Some Antiviruses might detect GWSL and block its installations. This is a 
 You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
 
 Overview: The GWSL Dashboard is where you can configure WSL machines, create shortcuts, and quickly launch apps.
-<img src="https://opticos.github.io/gwsl/tutorials/dash annotated.png" width="400">
+
+<img src="https://opticos.github.io/gwsl/tutorials/dash annotated.png" width="350">
+
 ##### Key
 1.  **GWSL Distro Tools:** Access various management and configuration options for WSL Distros.
 2.  **Shortcut Creator:** Create Windows Shortcuts that launch graphical Linux apps running in WSL. Usage is explained [here](#using-the-gwsl-shortcut-creator).
