@@ -59,7 +59,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 7.  **Help:** Umm... This opens the [GWSL help page](https://opticos.github.io/gwsl/help.html).
 8.  **About:** Shows GWSL credits, version, and license information.
 
-*Note: If any of these features are missing you might want to make sure you have all the (prerequisites installed)[#prerequisites].*
+*Note: If any of these features are missing you might want to make sure you have all the [prerequisites installed](#prerequisites).*
 
 ### Configuring a WSL Distro for use with GWSL ###
 
