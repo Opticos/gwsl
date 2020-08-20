@@ -48,7 +48,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 
 <img src="https://opticos.github.io/gwsl/tutorials/dash annotated.png" width="350">
 
-##### Key
+#### Key
 1.  **GWSL Distro Tools:** Access various management and configuration options for WSL Distros.
 2.  **Shortcut Creator:** Create Windows Shortcuts that launch graphical Linux apps running in WSL. Usage is explained [here](#using-the-gwsl-shortcut-creator).
 3.  **Linux Apps:** You can access and launch most graphical Linux apps installed on WSL here. You can also instantly create shortcuts for these apps. *Note: The App Launcher does not always find all graphical programs. Also, some links might not be functional. To access these programs, please use the [Shortcut Creator](#using-the-gwsl-shortcut-creator) or WSL Shell.*
@@ -57,6 +57,8 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 6.  **Donate:** I spent a long time developing this app and am now offering it for free. *Donations are appreciated.* [Donate here (-:](https://sites.google.com/bartimee.com/opticos-studios/donate).
 7.  **Help:** Umm... This opens the [GWSL help page](https://opticos.github.io/gwsl/help.html).
 8.  **About:** Shows GWSL credits, version, and license information.
+
+*Note: If any of these features are missing you might want to make sure you have all the (prerequisites installed)[#prerequisites].*
 
 ### Configuring a WSL Distro for use with GWSL ###
 
