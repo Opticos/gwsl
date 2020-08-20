@@ -3,6 +3,7 @@ layout: default
 title: GWSL Manual
 permalink: /tutorials/manual.html
 ---
+# THIS MANUAL IS UNDER CONSTRUCTION. CONTACT ME ON THE DISCORD SERVER OR BY EMAIL IF YOU NEED HELP.
 ## Table of Contents
 1.  [Prerequisites](#prerequisites)
 2.  [Installing GWSL](#installing-gwsl)
@@ -11,9 +12,10 @@ permalink: /tutorials/manual.html
 5.  [Using the GWSL Shortcut Creator](#using-the-gwsl-shortcut-creator)
 6.  [Using the Integrated Linux App Launcher](#using-the-integrated-linux-app-launcher)
 7.  [Using GWSL with the Linux Terminal](#using-gwsl-with-the-linux-terminal)
-8.  [Using GWSL with SSH](#using-gwsl-with-ssh)
-9.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
-10.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
+8.  [Installing a Graphical Package Manager](#installing-a-graphical-package-manager)
+9.  [Using GWSL with SSH](#using-gwsl-with-ssh)
+10.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
+11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
 
 ***
 
@@ -53,32 +55,33 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 
 ### Using GWSL with the Linux Terminal ###
 
+### Installing a Graphical Package Manager ###
+
 ### Using GWSL with SSH ###
 
 ### Using GWSL with other Shells ###
 #### Using X with Fish
 Auto-exporting does not work if Fish is the default shell but you can use this script.
-``
-    # WSL2 display export
-    set --export WSL2 1
-    set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
-    if which ipconfig.exe >/dev/null
-        set ipconfig_exec (which ipconfig.exe)
-    end
+```fish
+set --export WSL2 1
+set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
+if which ipconfig.exe >/dev/null
+    set ipconfig_exec (which ipconfig.exe)
+end
 
-    set wsl2_d_tmp (eval $ipconfig_exec | grep -n -m 1 "Default Gateway.*: [0-9a-z]" | cut -d : -f 1)
-    if test -n "$wsl2_d_tmp"
-        set first_line (expr $wsl2_d_tmp - 4)
-        set wsl2_d_tmp (eval $ipconfig_exec | sed $first_line,$wsl2_d_tmp!d | grep IPv4 | cut -d : -f 2 | sed -e "s|\s||g" -e "s|\r||g")
-        set --export DISPLAY "$wsl2_d_tmp:0"
-        set -e first_line
-    else
-        set --export DISPLAY (cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
-    end
+set wsl2_d_tmp (eval $ipconfig_exec | grep -n -m 1 "Default Gateway.*: [0-9a-z]" | cut -d : -f 1)
+if test -n "$wsl2_d_tmp"
+    set first_line (expr $wsl2_d_tmp - 4)
+    set wsl2_d_tmp (eval $ipconfig_exec | sed $first_line,$wsl2_d_tmp!d | grep IPv4 | cut -d : -f 2 | sed -e "s|\s||g" -e "s|\r||g")
+    set --export DISPLAY "$wsl2_d_tmp:0"
+    set -e first_line
+else
+    set --export DISPLAY (cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+end
 
-    set -e wsl2_d_tmp
-    set -e ipconfig_exec
-``
+set -e wsl2_d_tmp
+set -e ipconfig_exec
+```
 Add this to the end of `config.fish` and you should be good to go!
 
 ### Using GWSL Configuration Files ###
