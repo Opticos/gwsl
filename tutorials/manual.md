@@ -13,6 +13,7 @@ permalink: /tutorials/manual.html
 7.  [Using GWSL with the Linux Terminal](#using-gwsl-with-the-linux-terminal)
 8.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 9.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
+10.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
 
 ***
 
@@ -79,3 +80,5 @@ Auto-exporting does not work if Fish is the default shell but you can use this s
     set -e ipconfig_exec
 ``
 Add this to the end of `config.fish` and you should be good to go!
+
+### Using GWSL Configuration Files ###
