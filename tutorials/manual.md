@@ -13,10 +13,11 @@ permalink: /tutorials/manual.html
 6.  [Using the Integrated Linux App Launcher](#using-the-integrated-linux-app-launcher)
 7.  [Using GWSL with the Linux Terminal](#using-gwsl-with-the-linux-terminal)
 8.  [Installing a Graphical Package Manager](#installing-a-graphical-package-manager)
-9.  [Using GWSL with SSH](#using-gwsl-with-ssh)
-10.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
-11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
-12.  [Finding Logs](#finding-logs)
+9.  [Using GWSL with a Full Linux Desktop](#using-gwsl-with-a-full-linux-desktop)
+10.  [Using GWSL with SSH](#using-gwsl-with-ssh)
+11.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
+12.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
+13.  [Finding Logs](#finding-logs)
 
 
 ***
@@ -54,7 +55,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 3.  **Linux Apps:** You can access and launch most graphical Linux apps installed on WSL here. You can also instantly create shortcuts for these apps. *Note: The App Launcher does not always find all graphical programs. Also, some links might not be functional. To access these programs, please use the [Shortcut Creator](#using-the-gwsl-shortcut-creator) or WSL Shell.*
 4.  **Linux Shell:** Access the shells of installed WSL Distros.
 5.  **Graphical SSH Connection:** This feature allows you to log in to remote Linux machines and access their graphical apps on Windows. More is explained [here](#using-gwsl-with-ssh).
-6.  **Donate:** I spent a long time developing this app and am now offering it for free. *Donations are appreciated.* [Donate here (-:](https://sites.google.com/bartimee.com/opticos-studios/donate).
+6.  **Donate:** I spent a long time developing this app and am now offering it for free. *Donations are appreciated.* [Donate here (-:](https://sites.google.com/bartimee.com/opticos-studios/donate)
 7.  **Help:** Umm... This opens the [GWSL help page](https://opticos.github.io/gwsl/help.html).
 8.  **About:** Shows GWSL credits, version, and license information.
 
@@ -116,6 +117,7 @@ There are hundreds of other Linux Distributions. Try checking [this page](https:
 
 Use the [Shortcut Creator](https://opticos.github.io/gwsl/tutorials/shortcut.html) with the command and name of the package manager. Be sure to set "Run as Root" to True.
 
+### Using GWSL with a Full Linux Desktop ###
 
 ### Using GWSL with SSH ###
 
