@@ -4,6 +4,7 @@ title: Help
 description: Help Using GWSL
 permalink: /help.html
 ---
+# UPDATE: The last GWSL Update (v 1.3.4) got corrupted on upload to the Microsoft Store. It does not work properly. I worked to make a new version and 1.3.5 should be rolled out around this Monday (8/24/20). Thank you for your patience. Don't post those bad reviews just yet ;) Actually, Don't post them at all XD
 
 ## Help
 
