@@ -92,3 +92,8 @@ Miscellaneous
 
 Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
+### My Other Sites:
+*  [Optico5 on Bandcamp](https://opticos.bandcamp.com/)
+*  [Optico5 on Soundcloud](https://soundcloud.com/opticos)
+*  [Opticos Main Website](https://sites.google.com/bartimee.com/opticos-studios/home)
+*  [Opticos on GitHub](https://github.com/Opticos)
