@@ -50,7 +50,7 @@ Quick Links:
 
 [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-[Using GWSL](./tutorials/machine_configure.html).
+[Creating Start Menu Shortcuts for Linux Apps](./tutorials/manual.html#using-the-gwsl-shortcut-creator).
 
 <!--
 TODO: [Prepare a Distro for X (Graphics Compatibility)](https://guides.github.com/features/mastering-markdown/).
