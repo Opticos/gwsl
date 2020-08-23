@@ -27,6 +27,6 @@ opticosstudios (at) gmail (dot) com
 
 3.  The logs are stored in ```dashboard.log``` and ```service.log```.
 
-4.  Include these logs in support emails or share them in the Discord help server.
+4.  Include these logs in support emails or share them in the [Discord help server](https://discord.gg/VkvNgkH). Make sure no personal information is contained in them before sharing.
 
 
