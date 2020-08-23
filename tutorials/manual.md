@@ -128,13 +128,13 @@ To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Crea
 
 6.  **More/Less Options:** Show and hide advanced shortcut options.
 
-7.  **Display Mode:** Choose if you want to run the app in GWSL Single Window, Multi Window, or Fullscreen mode. If Default is selected, the current app mode is used.
+7.  **Display Mode:** Choose if you want to run the app in GWSL Single Window, Multi Window, or Fullscreen mode. If Default is selected, the current app mode is used. *
 
 8.  **GTK Scale Mode:** Override the HI-DPI scale factor for GTK. If Default is selected, the current GTK scale factor for the current machine is used. 
 
 9.  **QT Scale Mode:** Override the HI-DPI scale factor for QT. If Default is selected, the current QT scale factor for the current machine is used.
 
-10. **Shared Clipboard:** Enable or Disable the shared clipboard for this app. If set to Disabled, the Windows clipboard will not synchronize with the Linux app. If set to Default, the current default clipboard mode is used.
+10. **Shared Clipboard:** Enable or Disable the shared clipboard for this app. If set to Disabled, the Windows clipboard will not synchronize with the Linux app. If set to Default, the current default clipboard mode is used. *
 
 11.  **Color Mode:** If set to Follow Windows, GTK will try to synchronize light and dark theme modes with Windows.
 
@@ -143,10 +143,13 @@ To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Crea
 13.  **Use DBus:** This only works on Debian-based distros. Use it for Gnome apps if they do not start. Ex. Gnome Software.
 
 14.  **Experimental Flags:** These might not work. If GTK and QT scaling does not work, try using these flags.
+15.  **Keep XServer Instance:** This is useful when a shortcut is running with its own XServer Instance. Enable this if Linux GUI apps randomly close.
 
-15.  **Add to Start Menu:** Add a shortcut for the app to the Windows Start Menu with these current settings. It is reccomended to test your configuration with "Test Configuration" before creating the shortcut.
+16.  **Add to Start Menu:** Add a shortcut for the app to the Windows Start Menu with these current settings. It is reccomended to test your configuration with "Test Configuration" before creating the shortcut.
 
 17.   **Test Configuration:** Test the current settings to make sure everything works before adding your shortcut.
+
+##### * These settings make an app run in its own XServer. It is usually better to let an app use the default GWSL XServer on port 0 but this can be helpful if an app needs to be separated from others (whether is be by settings or clipboard preferences). If these options are changed from their defaults, a new XServer on a random port will run when the shortcut is launched. If you are unsure about these settings, test them before using the "Test Shortcut" button.
 
 ### More
 
