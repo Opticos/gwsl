@@ -160,7 +160,7 @@ You can also use the [Linux App Launcher](#using-the-integrated-linux-app-launch
 
 Access the Linux App Launcher by opening the Dashboard and clicking "Linux Apps". If you are prompted to select a Distro, select the Distro where the app is installed. 
 
-Click the icon of an app to launch it. Click the link: ```🔗``` icon besides a shortcut to open the Shortcut Creator and create a shortcut. [Shortcut settings](#using-the-gwsl-shortcut-creator) may need to be adjusted for everything to work properly.
+Click the icon of an app to launch it. Click the link: ```🔗``` icon beside a shortcut to open the Shortcut Creator and create a shortcut. [Shortcut settings](#using-the-gwsl-shortcut-creator) may need to be adjusted for everything to work properly.
 
 ### Installing a Graphical Package Manager ###
 
