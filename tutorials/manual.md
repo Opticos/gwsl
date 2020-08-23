@@ -11,13 +11,12 @@ permalink: /tutorials/manual.html
 4.  [Configuring a WSL Distro for use with GWSL](#configuring-a-wsl-distro-for-use-with-gwsl)
 5.  [Using the GWSL Shortcut Creator](#using-the-gwsl-shortcut-creator)
 6.  [Using the Integrated Linux App Launcher](#using-the-integrated-linux-app-launcher)
-7.  [Using GWSL with the Linux Terminal](#using-gwsl-with-the-linux-terminal)
-8.  [Installing a Graphical Package Manager](#installing-a-graphical-package-manager)
-9.  [Using GWSL with a Full Linux Desktop](#using-gwsl-with-a-full-linux-desktop)
-10.  [Using GWSL with SSH](#using-gwsl-with-ssh)
-11.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
-12.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
-13.  [Finding Logs](#finding-logs)
+7.  [Installing a Graphical Package Manager](#installing-a-graphical-package-manager)
+8.  [Using GWSL with a Full Linux Desktop](#using-gwsl-with-a-full-linux-desktop)
+9.  [Using GWSL with SSH](#using-gwsl-with-ssh)
+10.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
+11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
+12.  [Finding Logs](#finding-logs)
 
 
 ***
@@ -156,9 +155,13 @@ To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Crea
 
 You can also use the [Linux App Launcher](#using-the-integrated-linux-app-launcher) to create shortcuts.
 
-### Using the Integrated Linux App Launcher ### 
+### Using the Integrated Linux App Launcher ###
 
-### Using GWSL with the Linux Terminal ###
+##### Note: The Integrated app launcher can be useful for quickly finding and launching Linux GUI apps running on WSL distros. However, due to the many different standards for Linux apps, not all apps shortcuts will work and some might be missing. If an app is missing, you can launch it using the [Shortcut Creator](#using-the-gwsl-shortcut-creator) or the shell of a WSL Distro.
+
+Access the Linux App Launcher by opening the Dashboard and clicking "Linux Apps". If you are prompted to select a Distro, select the Distro where the app is installed. 
+
+Click the icon of an app to launch it. Click the link: ```🔗``` icon besides a shortcut to open the Shortcut Creator and create a shortcut. [Shortcut settings](#using-the-gwsl-shortcut-creator) may need to be adjusted for everything to work properly.
 
 ### Installing a Graphical Package Manager ###
 
@@ -204,11 +207,19 @@ There are hundreds of other Linux Distributions. Try checking [this page](https:
 
 #### Creating a Windows Shorcut for the Package Manager
 
-Use the [Shortcut Creator](https://opticos.github.io/gwsl/tutorials/shortcut.html) with the command and name of the package manager. Be sure to set "Run as Root" to True.
+Use the [Shortcut Creator](#using-the-gwsl-shortcut-creator) with the command and name of the package manager. Be sure to set "Run as Root" to ```True```.
 
 ### Using GWSL with a Full Linux Desktop ###
 
+GWSL can be used to launch full Linux Desktop Environments (DE's) full screen or in their own windows. GWSL has been tested with [XFCE](https://www.xfce.org/) and [MATE](https://mate-desktop.org/). [LXDE](https://wiki.lxde.org/en/Main_Page) and others may also work. To use one of these desktops, install it using your Distro's repository, start GWSL, and run the DE.
+
+To create a shortcut that links to the Desktop Environment, open the [Shortcut Creator](#using-the-gwsl-shortcut-creator), type in the name of your distro, and enter the command needed to launch the distro. For XFCE, use the command ```startxfce4```. For Mate, use ```mate-session```. Be sure to use ```Single Window Mode``` or ```Fullscreen Mode```. Otherwise wierd things will happen.
+
 ### Using GWSL with SSH ###
+
+##### Note: This is an experimental feature. 
+
+
 
 ### Using GWSL with other Shells ###
 #### Using X with Fish
@@ -265,5 +276,5 @@ In the settings file, add the phrases you want blocked to the ```app_blacklist``
 
 3.  The logs are stored in ```dashboard.log``` and ```service.log```.
 
-4.  Include these logs in support emails or share them in the (Discord help server)[https://discord.gg/VkvNgkH]. Make sure no personal information is contained in them before sharing.
+4.  Include these logs in support emails or share them in the [Discord help server](https://discord.gg/VkvNgkH). Make sure no personal information is contained in them before sharing.
 
