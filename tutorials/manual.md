@@ -219,7 +219,11 @@ To create a shortcut that links to the Desktop Environment, open the [Shortcut C
 
 ##### Note: This is an experimental feature. 
 
+<img src="https://opticos.github.io/gwsl/tutorials/ssh.png" width="450">
 
+This feature lets you login to remote Linux machines and run graphical apps installed remotely on your Windows desktop.'
+
+To use it, open the Dashboard and click the "Graphical SSH Connection" button. Type in the IP address of the remote machine, hit enter, and enter your credentials. You will then see a Putty SSH window preset to forward X to the GWSL XServer. Enter a command to run a graphical app and it should run.
 
 ### Using GWSL with other Shells ###
 #### Using X with Fish
