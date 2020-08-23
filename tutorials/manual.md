@@ -38,6 +38,8 @@ To make sure WSL is installed correctly, type ```wsl.exe``` in the command line 
 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](	https://www.microsoft.com/store/apps/9NL6KD1H33V3).
 
+On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) (See Options with an Asterisk).
+
 Note: Some Antiviruses might detect GWSL and block its installations. This is a known bug in Pyinstaller, the program we use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
 
 ### The GWSL User Interface ###
@@ -63,7 +65,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 
 ### Configuring a WSL Distro for use with GWSL ###
 
-##### Note: These steps will only work if bash is the default Linux shell. If you don't know what this means, you're probably good to go.
+##### Note: These setup steps will only work if bash is the default Linux shell. If you don't know what this means, you're probably good to go. If you are using Fish as the default shell, [read this](#using-gwsl-with-other-shells).
 
 #### Getting Started
 
@@ -72,7 +74,7 @@ After a new WSL Distro is installed, several steps are required to get it up and
 2.  The next step is to enable "Auto-Export Display" in the Distro configuration.
 3.  After this, the user may tweak other settings explained on this page.
 
-Tip: You can open the GWSL Dashboard by clicking the "G" icon in the notification area or by clicking the icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G```.
+Tip: You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
 
 #### Accessing Other Distro Settings ####
 
@@ -94,8 +96,7 @@ To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine T
 
 1.  **Display Auto Export:** With other XServers for Windows 10, the user must type in several commands each time they launch a gui app. With GWSL, clicking this button makes these commands run automatically when the current WSL Distro starts. This must be enabled for every new WSL distro. NOTE: After converting a WSL machine between WSL 1 and 2, this button must be pressed again. 
 
-<a href='#dbus' id='installation-guide' class='anchor' aria-hidden='true'></a>
-2.  **Configure DBus:** Some Gnome apps have trouble running on WSL. Clicking this button attempts to enable DBus to fix these issues. The root password of the current WSL Distro is required to do this. NOTE: This option is only available on Debian-based distributions.
+2.  **Configure DBus:** Some Gnome apps have trouble running on WSL. Clicking this button attempts to enable DBus to fix these issues. The root password of the current WSL Distro is required to do this. NOTE: This option is only available on Debian-based distributions. This option also requires WSL2. It is not guaranteed to work.
 
 3.  **GTK DPI Toggle:** This button toggles the default DPI environment variable for GTK.
 
@@ -103,7 +104,7 @@ To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine T
 
 5.  **Theme Chooser:** Unstable: This option allows users to set the default GTK theme of the Distro being configured. This attempts to scan ```/usr/share/themes/``` for GTK themes.
 
-6.  **Help:** Reboot the current WSL Distro.
+6.  **Reboot Distro:** Reboot the current WSL Distro.
 
 
 ### Using the GWSL Shortcut Creator ###
@@ -247,6 +248,13 @@ Add this to the end of `config.fish` and you should be good to go!
 
 #### Blocking Distros
 
+In the settings file, add the phrases you want blocked to the ```distro_blacklist``` list.
+
+#### Blocking Apps
+
+In the settings file, add the phrases you want blocked to the ```app_blacklist``` list.
+
+##### Note: The format for the blacklists is ```["name1", "name2", "name3"]```. Commas are required between entries.
 
 ### Finding Logs ###
 
@@ -257,5 +265,5 @@ Add this to the end of `config.fish` and you should be good to go!
 
 3.  The logs are stored in ```dashboard.log``` and ```service.log```.
 
-4.  Include these logs in support emails or share them in the Discord help server.
+4.  Include these logs in support emails or share them in the (Discord help server)[https://discord.gg/VkvNgkH]. Make sure no personal information is contained in them before sharing.
 
