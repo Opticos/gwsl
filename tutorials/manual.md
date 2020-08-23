@@ -3,7 +3,6 @@ layout: default
 title: GWSL Manual
 permalink: /tutorials/manual.html
 ---
-# THIS MANUAL IS UNDER CONSTRUCTION. CONTACT ME ON THE DISCORD SERVER OR BY EMAIL IF YOU NEED HELP.
 ## Table of Contents
 1.  [Prerequisites](#prerequisites)
 2.  [Installing GWSL](#installing-gwsl)
