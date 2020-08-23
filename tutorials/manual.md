@@ -149,7 +149,7 @@ To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Crea
 
 17.   **Test Configuration:** Test the current settings to make sure everything works before adding your shortcut.
 
-##### * These settings make an app run in its own XServer. It is usually better to let an app use the default GWSL XServer on port 0 but this can be helpful if an app needs to be separated from others (whether is be by settings or clipboard preferences). If these options are changed from their defaults, a new XServer on a random port will run when the shortcut is launched. If you are unsure about these settings, test them before using the "Test Shortcut" button.
+##### * These settings make an app run in its own XServer. It is usually better to let an app use the default GWSL XServer on port 0 but this can be helpful if an app needs to be separated from others (whether is be by settings or clipboard preferences). If these options are changed from their defaults, a new XServer on a random port will run when the shortcut is launched. If you are unsure about these settings, test them before by using the "Test Shortcut" button.
 
 ### More
 
