@@ -38,7 +38,7 @@ GWSL can be easily installed from the Microsoft Store. If it is not already inst
 
 On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) (See Options with an Asterisk).
 
-Note: Some Antiviruses might detect GWSL and block its installations. This is a known bug in Pyinstaller, the program we use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
+Note: Some Antiviruses might detect GWSL and block its installation. This is a known bug in Pyinstaller, the program we use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
 
 ### The GWSL User Interface ###
 #### The Dashboard 
