@@ -18,7 +18,7 @@ GWSL automates the process of running X on top of WSL and over SSH:
 
 Bascially, it does alot of stuff so *you* don't have to! Maybe you'd better watch the video ↓
 
-TODO: Insert promo video here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VEbnVK70A0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Wait... Why is it called GWSL? From your title it looks like it should be called TFPHIWXS. Why didn't you call it that?
 
