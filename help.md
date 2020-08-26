@@ -6,6 +6,7 @@ permalink: /help.html
 ---
 # UPDATE: The last GWSL Update (v 1.3.4) got corrupted on upload to the Microsoft Store. It does not work properly. I worked to make a new version and 1.3.5 should be rolled out soon. Thank you for your patience. Don't post those bad reviews just yet ;) Actually, Don't post them at all XD. UPDATE 2 (8/25/20): The update still has not arrived. I have contacted Microsoft. Due to these delays, I will probably start distributing GWSL as a regular installer in addition to the Store version. I will do it as soon as I am able.
 
+# I am NOT making any promises regarding release dates. 
 
 ## Help
 
