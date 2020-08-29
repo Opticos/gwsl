@@ -144,7 +144,7 @@ To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Crea
 14.  **Experimental Flags:** These might not work. If GTK and QT scaling does not work, try using these flags.
 15.  **Keep XServer Instance:** This is useful when a shortcut is running with its own XServer Instance. Enable this if Linux GUI apps randomly close.
 
-16.  **Add to Start Menu:** Add a shortcut for the app to the Windows Start Menu with these current settings. It is reccomended to test your configuration with "Test Configuration" before creating the shortcut.
+16.  **Add to Start Menu:** Add a shortcut for the app to the Windows Start Menu with these current settings. It is recommended to test your configuration with "Test Configuration" before creating the shortcut.
 
 17.   **Test Configuration:** Test the current settings to make sure everything works before adding your shortcut.
 
@@ -179,7 +179,7 @@ There are several to choose from depending on your Linux distribution. Here are 
    ```
    To run Synaptic, use ```sudo synaptic```
 
-*  Gnome Software - Streamlined But Quirky and Buggy at Times. We do not reccomend using this one.
+*  Gnome Software - Streamlined But Quirky and Buggy at Times. We do not recommend using this one.
 
    In the WSL terminal:
    
