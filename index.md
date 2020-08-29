@@ -86,7 +86,7 @@ Miscellaneous
 ### Frequently Asked Questions
 *  Why doesn't GWSL seem to work with Linux shells other than Bash? *Here is some info: [Using GWSL with other Shells](./tutorials/manual.html#using-gwsl-with-other-shells).*
 *  What will happen when WSL2 gets official Wayland support? *We are just as excited about this as you are. Till it is available, GWSL will only function as an XServer. When Wayland is available, there will be an option to swicth between Wayland and X as a GWSL backend. The shortcut creator and app launcher will continue to work in the new Wayland mode.*
-*  Does WSL work on Windows 10 versions older than 2004? *Yes, now that Microsoft has made WSL2 compatible on older versions of Windows, GWSL can run on them too. To run GWSL on older versions of Windows 10, you will need to use the [traditional installer](./tutorials/downloads.html).*
+*  Does WSL work on Windows 10 versions older than 2004? *Yes, now that Microsoft has made WSL2 compatible on older versions of Windows, GWSL can run on them too. To run GWSL on older versions of Windows 10, you will need to use the [traditional installer](./tutorials/download.html).*
 *  Why aren't there more questions? *We are woking on this... Not many questions have been asked frequently enough to put here. Start asking!*
 
 
