@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GWSL Downloads
-permalink: /tutorials/downloads.html
+permalink: /tutorials/download.html
 ---
 
 ## Downloads
