@@ -82,7 +82,7 @@ To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine T
 <img src="https://opticos.github.io/gwsl/tutorials/dashboardlink.png" width="500">
 
 
-##### Choose the WSl Distro you want to configure:
+##### Choose the WSL Distro you want to configure:
 
 <img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300">
 
