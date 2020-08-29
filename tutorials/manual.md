@@ -70,7 +70,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 After a new WSL Distro is installed, several steps are required to get it up and running with GWSL: 
 1.  On the first run of GWSL, Windows will ask you to allow GWSL through the Windows firewall. It is important to give it access to public networks. You might be asked to allow it through twice.
 2.  The next step is to enable "Auto-Export Display" in the Distro configuration.
-3.  After this, the user may tweak other settings explained on this page.
+3.  After this, the user may tweak other settings explained in this section.
 
 Tip: You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
 
