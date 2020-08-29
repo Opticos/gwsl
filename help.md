@@ -4,9 +4,7 @@ title: Help
 description: Help Using GWSL
 permalink: /help.html
 ---
-# UPDATE: The last GWSL Update (v 1.3.4) got corrupted on upload to the Microsoft Store. It does not work properly. I worked to make a new version and 1.3.5 should be rolled out soon. Thank you for your patience. Don't post those bad reviews just yet ;) Actually, Don't post them at all XD. UPDATE 2 (8/25/20): The update still has not arrived. I have contacted Microsoft. Due to these delays, I will probably start distributing GWSL as a regular installer in addition to the Store version. I will do it as soon as I am able.
-
-# I am NOT making any promises regarding release dates. 
+# NOTE: GWSL on the Microsoft Store is currently broken. In the meantime, please use the [traditional Windows installer](https://opticos.github.io/gwsl/tutorials/download.html). An update fixing this issue will soon roll out on the store but I don't know when. If you move from the Store version of GWSL to the traditional version or vice versa, shortcuts will need to be recreated.
 
 ## Help
 
