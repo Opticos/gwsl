@@ -100,8 +100,8 @@ If you enjoy GWSL, please consider [buying me a cup of coffee](https://sites.goo
 
 ### My Other Sites:
 *  [LinkedIn Profile](https://www.linkedin.com/in/paul-elliot-foy)
+*  [Opticos Main Website](https://sites.google.com/bartimee.com/opticos-studios/home)
 *  [Optico5 on Bandcamp](https://opticos.bandcamp.com/)
 *  [Optico5 on Soundcloud](https://soundcloud.com/opticos)
-*  [Opticos Main Website](https://sites.google.com/bartimee.com/opticos-studios/home)
 *  [Opticos on GitHub](https://github.com/Opticos)
 *  [Personal Github Page (Pololot64)](https://github.com/Pololot64)
