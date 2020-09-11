@@ -99,7 +99,7 @@ Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 If you enjoy GWSL, please consider [buying me a cup of coffee](https://sites.google.com/bartimee.com/opticos-studios/donate). I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
 
 ### My Other Sites:
-*  [LinkedIn Profile](www.linkedin.com/in/paul-elliot-foy)
+*  [LinkedIn Profile](https://www.linkedin.com/in/paul-elliot-foy)
 *  [Optico5 on Bandcamp](https://opticos.bandcamp.com/)
 *  [Optico5 on Soundcloud](https://soundcloud.com/opticos)
 *  [Opticos Main Website](https://sites.google.com/bartimee.com/opticos-studios/home)
