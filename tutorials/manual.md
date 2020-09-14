@@ -251,7 +251,7 @@ Add this to the end of `config.fish` and you should be good to go!
 
 ### Using GWSL Configuration Files ###
 
-#### The GWSL configuration file allows users to block certain applications and distros from showing up in the app launcher and machine chooser.
+#### The GWSL blacklist configuration option allows users to block certain applications and distros from showing up in the app launcher and machine chooser.
 1.  Open Windows Explorer.
 
 2.  In the path entry box, paste ```%AppData%/GWSL/```and hit enter.
@@ -267,6 +267,10 @@ In the settings file, add the phrases you want blocked to the ```distro_blacklis
 #### Blocking Apps
 
 In the settings file, add the phrases you want blocked to the ```app_blacklist``` list.
+
+#### Changing the position of the GWSL Dashboard
+
+The Dashboard in GWSL 1.3.6 can now be configured to pop up on the left side of the desktop. To access this option, open the configuration file and edit the ```position``` variable to be "right" or "left".
 
 ##### Note: The format for the blacklists is ```["name1", "name2", "name3"]```. Commas are required between entries.
 
