@@ -68,7 +68,7 @@ Overview: The GWSL Dashboard is where you can configure WSL machines, create sho
 #### Getting Started
 
 After a new WSL Distro is installed, several steps are required to get it up and running with GWSL: 
-1.  On the first run of GWSL, Windows will ask you to allow GWSL through the Windows firewall. It is important to give it access to public networks. You might be asked to allow it through twice.
+1.  On the first run of GWSL, Windows will ask you to allow GWSL through the Windows firewall. It is **important** to give it access to public networks. You might be asked to allow it through twice.
 2.  The next step is to enable "Auto-Export Display" in the Distro configuration.
 3.  After this, the user may tweak other settings explained in this section.
 
@@ -247,7 +247,7 @@ end
 set -e wsl2_d_tmp
 set -e ipconfig_exec
 ```
-Add this to the end of `config.fish` and you should be good to go! (Credit to [Jtiai](https://github.com/jtiai))
+Add this to the end of `config.fish` and you should be good to go! (Credit to [Jtiai](https://github.com/jtiai)).
 
 ### Using GWSL Configuration Files ###
 
