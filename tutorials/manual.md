@@ -247,7 +247,7 @@ end
 set -e wsl2_d_tmp
 set -e ipconfig_exec
 ```
-Add this to the end of `config.fish` and you should be good to go!
+Add this to the end of `config.fish` and you should be good to go! (Credit to [Jtiai](https://github.com/jtiai))
 
 ### Using GWSL Configuration Files ###
 
@@ -268,11 +268,12 @@ In the settings file, add the phrases you want blocked to the ```distro_blacklis
 
 In the settings file, add the phrases you want blocked to the ```app_blacklist``` list.
 
+##### Note: The format for the blacklists is ```["name1", "name2", "name3"]```. Commas are required between entries.
+
 #### Changing the position of the GWSL Dashboard
 
 The Dashboard in GWSL 1.3.6 can now be configured to pop up on the left side of the desktop. To access this option, open the configuration file and edit the ```position``` variable to be "right" or "left".
 
-##### Note: The format for the blacklists is ```["name1", "name2", "name3"]```. Commas are required between entries.
 
 ### Finding Logs ###
 
