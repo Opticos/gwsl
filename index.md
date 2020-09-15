@@ -8,6 +8,8 @@ title: GWSL
 
 ## GWSL
 
+# UPDATE: GWSL is now up and running on the Microsoft Store. Check for the latest 1.3.6 update.
+
 ### What on Earth does this do? What is it for? How can it help me?
 
 GWSL automates the process of running X on top of WSL and over SSH:
