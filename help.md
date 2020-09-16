@@ -4,6 +4,8 @@ title: Help
 description: Help Using GWSL
 permalink: /help.html
 ---
+# GWSL not working? Make sure you have the latest 1.3.6 update from the Microsoft Store.
+
 ## Help
 
 Need help? Found a bug? Have an idea for a great new feature? Contact us!
