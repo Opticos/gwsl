@@ -82,6 +82,9 @@ To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine T
 <img src="https://opticos.github.io/gwsl/tutorials/dashboardlink.png" width="500">
 
 
+**NOTE: To toggle the default X Window Mode and/or Shared Clipboard settings, Right-Click the "G" Icon in the notification area. These are the default settings for the XServer on port 0 but specific shortcuts can override them.** 
+
+
 ##### Choose the WSL Distro you want to configure:
 
 <img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300">
