@@ -10,6 +10,8 @@ title: GWSL
 
 # UPDATE: GWSL is now up and running on the Microsoft Store. Check for the latest 1.3.6 update.
 
+## Please feel free to leave GWSL a 5-star review on the Microsoft Store! It means alot to me! :) If you don't, please leave me feedback in the [Discord server](https://opticos.github.io/gwsl/help.html).
+
 ### What on Earth does this do? What is it for? How can it help me?
 
 GWSL automates the process of running X on top of WSL and over SSH:
