@@ -11,7 +11,7 @@ permalink: /tutorials/download.html
 
 ### [Traditional Windows Installer](https://github.com/Opticos/GWSL-Source/releases/) (Windows 10 1909 and up. WSL2 Required).
 
-### Also, if you for some strange reason want to use itch.io :
+### Also, there is an itch.io page:
 
 <iframe src="https://itch.io/embed/779749" width="552" height="167" frameborder="0"><a href="https://opticos.itch.io/gwsl">GWSL by Optico5</a></iframe>
 
