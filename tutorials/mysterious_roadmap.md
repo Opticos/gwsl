@@ -4,6 +4,8 @@ title: GWSL Roadmap & Changelog
 permalink: /roadmap.html
 ---
 
+## This is a rough draft
+
 ## 1.3.3
 First Stable Release
 
@@ -30,6 +32,7 @@ First Stable Release
 *  Add test X button (xclock) (NEED POC & DOCS)
 *  Add button to open logs and one to open settings.
 *  Add catch to make sure WSL is v2 on 1909. Somehow get rid of support for previous builds. (RESEARCH BUILD NUMBERS)
+*  Oh, and also make sure all the registry values exist back then too... Light mode is only so old...
 *  Dont let user add export script twice. Debug the script... alot
 *  Maybe revert to older script
 *  check to see if bash is existing with which to fix problems with other shells. Or just see which shell is default and port or override
