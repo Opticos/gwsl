@@ -34,7 +34,7 @@ To make sure WSL is installed correctly, type ```wsl.exe``` in the command line 
 
 ### Installing GWSL ###
 
-GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](	https://www.microsoft.com/store/apps/9NL6KD1H33V3).
+GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3).
 
 On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) (See Options with an Asterisk).
 
