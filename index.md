@@ -96,44 +96,16 @@ Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
 ### Donate ###
 
+If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
+
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
 <input type="hidden" name="business" value="VV8W4XA2PZ5R8" />
-<input type="hidden" name="item_name" value="GWSL" />
+<input type="hidden" name="item_name" value="GWSL Donation" />
 <input type="hidden" name="currency_code" value="USD" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
-
-If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
-
-<div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'blue',
-          layout: 'vertical',
-          label: 'paypal',
-          
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '3'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
 
 
 ### My Other Sites:
