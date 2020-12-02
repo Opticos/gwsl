@@ -98,6 +98,35 @@ Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
 If you enjoy GWSL, please consider [buying me a cup of coffee](https://sites.google.com/bartimee.com/opticos-studios/donate). I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
 
+<div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '3'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
+
+
 ### My Other Sites:
 <!--*  [LinkedIn Profile](https://www.linkedin.com/in/paul-elliot-foy)-->
 *  [Opticos Main Website](https://sites.google.com/bartimee.com/opticos-studios/home)
