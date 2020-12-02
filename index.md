@@ -96,6 +96,15 @@ Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
 ### Donate ###
 
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="VV8W4XA2PZ5R8" />
+<input type="hidden" name="item_name" value="GWSL" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
 If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
 
 <div id="paypal-button-container"></div>
