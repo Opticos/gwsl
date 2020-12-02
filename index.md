@@ -94,9 +94,9 @@ Miscellaneous
 
 Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
-### Donate
+### Donate ###
 
-If you enjoy GWSL, please consider [buying me a cup of coffee](https://sites.google.com/bartimee.com/opticos-studios/donate). I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
+If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
 
 <div id="paypal-button-container"></div>
 <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
