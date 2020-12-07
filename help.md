@@ -18,6 +18,8 @@ opticosstudios (at) gmail (dot) com
 
 ### Visit Our Discord Server (Faster Responses)
 
+Note: Before asking your question, please make sure it has not been answered higher up in message history. Also, GitHub has some answers.
+
 [![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.gg/VkvNgkH)
 
 
