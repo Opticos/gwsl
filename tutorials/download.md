@@ -10,7 +10,7 @@ permalink: /tutorials/download.html
 
 ### [Traditional Windows Installer](https://github.com/Opticos/GWSL-Source/releases/) (Windows 10 1903 and up. WSL2 Required).
 
-### [Get the sources.](https://github.com/Opticos/GWSL-Source)
+### [See the sources.](https://github.com/Opticos/GWSL-Source)
 
 ### Also, there is an itch.io page:
 
