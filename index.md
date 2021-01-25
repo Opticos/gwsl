@@ -96,7 +96,7 @@ Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
 
 ### Donate ###
 
-If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated.
+If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to make it free and plan to spend alot of time supporting it. Donations are greaty appreciated. If you can't donate, please consider leaving a 5-star review on the Microsoft Store.
 
 ##### Any Amount Helps!
 
