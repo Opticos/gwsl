@@ -229,7 +229,7 @@ To use it, open the Dashboard and click the "Graphical SSH Connection" button. T
 
 ### Using GWSL with other Shells ###
 #### Using X with Fish
-Auto-exporting does not work if Fish is the default shell but you can use this script.
+Auto-exporting does not work if Fish is the default shell but you can use this script. Note this can break on some systems...
 ```fish
 set --export WSL2 1
 set ipconfig_exec (wslpath "C:\\Windows\\System32\\ipconfig.exe")
