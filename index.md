@@ -110,7 +110,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
-##### Or use Ko-Fi
+##### Or use Ko-Fi ☕
 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#e08a28', 'G2G24743G');kofiwidget2.draw();</script> 
 
 
