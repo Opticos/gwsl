@@ -87,6 +87,7 @@ Miscellaneous
 *  Why doesn't GWSL seem to work with Linux shells other than Bash? *Here is some info: [Using GWSL with other Shells](./tutorials/manual.html#using-gwsl-with-other-shells).*
 *  What will happen when WSL2 gets official Wayland support? *I am just as excited about this as you are. Till it is available, GWSL will only function as an XServer. When Wayland is available, there will be an option to swicth between Wayland and X as a GWSL backend. The shortcut creator and app launcher will continue to work in the new Wayland mode.*
 *  Does WSL work on Windows 10 versions older than 2004? *Yes, now that Microsoft has made WSL2 compatible with older versions of Windows 10, GWSL can run on them too. To run GWSL on older versions of Windows 10, you will need to install WSL2.*
+*  Does GWSL work with every single app? *No. But most work well*
 *  Why aren't there more questions? *We are woking on this... Not many questions have been asked frequently enough to put here. Start asking!*
 
 
@@ -108,6 +109,17 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
+
+##### Or use Ko-Fi
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('optico5', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Donate',
+    'floating-chat.donateButton.background-color': '#f45d22',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
 
 
 ### My Other Sites:
