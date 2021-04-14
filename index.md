@@ -114,7 +114,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#e08a28', 'G2G24743G');kofiwidget2.draw();</script> 
 
 ##### Or BuyMeACoffee.com ⭐
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="optico5" data-color="#FF5F5F" data-emoji=""  data-font="Poppins" data-text="Donate: Buy me a coffee.com" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="optico5" data-color="#f45d22" data-emoji=""  data-font="Poppins" data-text="Donate: Buy me a coffee.com" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
 
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
