@@ -119,7 +119,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 <script>
   kofiWidgetOverlay.draw('optico5', {
     'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Donate with Ko-Fi.com',
+    'floating-chat.donateButton.text': 'Donate on Ko-Fi',
     'floating-chat.donateButton.background-color': '#f45d22',
     'floating-chat.donateButton.text-color': '#fff'
   });
