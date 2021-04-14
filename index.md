@@ -113,9 +113,12 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 ##### Or use Ko-Fi ☕
 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#e08a28', 'G2G24743G');kofiwidget2.draw();</script> 
 
+(Ko-Fi is the floating button on the left side.)
+
 ##### Or BuyMeACoffee.com ⭐
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="optico5" data-color="#e08a28" data-emoji=""  data-font="Poppins" data-text="Donate: Buy me a coffee.com" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FF7673" ></script>
 
+(BuyMeACoffee is the floating button on the right side.)
 
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
@@ -127,7 +130,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
   });
 </script>
 
-#### 
+#### ####
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="optico5" data-description="Support me on Buy me a coffee!" data-message="Donate on BuyMeACoffee.com" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
 ### My Other Sites:
