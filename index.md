@@ -20,6 +20,10 @@ Basically, it does a lot of stuff so *you* don't have to! Maybe you'd better wat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VEbnVK70A0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+Here is another video showing it in action:
+<iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/S6GXBEQ5KzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Wait... Why is it called GWSL? From your title it looks like it should be called TFPHIWXS. Why didn't you call it that?
 
 Meh... That doesn't sound too great. GWSL stands for Graphical WSL. WSL in turn stands for Windows Subsystem for Linux. :-)
