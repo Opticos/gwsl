@@ -22,7 +22,7 @@ Basically, it does a lot of stuff so *you* don't have to! Maybe you'd better wat
 
 
 Here is another video showing it in action:
-<iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/S6GXBEQ5KzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S6GXBEQ5KzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Wait... Why is it called GWSL? From your title it looks like it should be called TFPHIWXS. Why didn't you call it that?
 
