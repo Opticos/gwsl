@@ -229,7 +229,11 @@ This feature lets you login to remote Linux machines and run graphical apps inst
 To use it, open the Dashboard and click the "Graphical SSH Connection" button. Type in the IP address of the remote machine, hit enter, and enter your credentials. You will then see a Putty SSH window preset to forward X to the GWSL XServer. Enter a command to run a graphical app and it should run.
 
 ### Using GWSL with other Shells ###
-#### Using X with Fish
+
+#### GWSL 1.3.8 now supports Fish and Zsh.
+To export the display for these shells, go do the dashboard --> GWSL Distro Tools --> Distro --> More Shells and Options.
+
+#### Using X with Fish (OLD METHOD FOR GWSL 1.3.7 and under. DOES NOT ALWAYS WORK)
 Auto-exporting does not work if Fish is the default shell but you can use this script. Note this can break on some systems...
 ```fish
 set --export WSL2 1
@@ -276,7 +280,15 @@ In the settings file, add the phrases you want blocked to the ```app_blacklist``
 
 #### Changing the position of the GWSL Dashboard
 
-The Dashboard in GWSL 1.3.6 can now be configured to pop up on the left side of the desktop. To access this option, open the configuration file and edit the ```position``` variable to be "right" or "left".
+The Dashboard in GWSL 1.3.6 can now be configured to pop up on the left side of the desktop. To access this option, open the configuration file and edit the ```"start_menu_mode"``` variable to be ```true``` (for left) or ```false``` (for default right).
+
+#### Changing the Default Terminal App
+
+You can use CMD or the new Windows Terminal. In the settings file, change the value of ```"shell_gui"``` to ```"wt"``` to use Windows Terminal or use ```"cmd"``` to use CMD.
+
+#### Disabling Acrylic for Compatibility with HDR Displays
+
+The GWSL Dashboard does not always display properly when HDR is on (on certain displays). To fix this, open the settings file and set the value of ```"acrylic_enabled"``` to ```false```.
 
 
 ### Finding Logs ###
