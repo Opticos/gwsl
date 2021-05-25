@@ -17,6 +17,7 @@ permalink: /tutorials/manual.html
 11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
 12.  [Finding Logs](#finding-logs)
 13.  [Starting GWSL Silently (without dashboard)](#silent-startup)
+14.  [Troubleshooting](#troubleshooting)
 
 
 ***
@@ -37,9 +38,14 @@ To make sure WSL is installed correctly, type ```wsl.exe``` in the command line 
 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3).
 
-On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) (See Options with an Asterisk).
+On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) or changing the dpi mode(See Options with an Asterisk).
 
-Note: Some Antiviruses might detect GWSL and block its installation. This is a known bug in Pyinstaller, the program we use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
+If you are not sure you allowed GWSL through the firewall, you can test the xserver by going to the GWSL Dashboard --> About --XClock. A simple clock window should open.
+
+If you did not allow it through the firewall the first time, you can simply go to the GWSL Dashboard --> About --> Allow GWSL Through the Firewall.
+This will open a window to show you how to allow it. (This feature was added in GWSL 1.3.8)
+
+Note: Some Antiviruses might detect GWSL and block its installation. This is a known bug in Pyinstaller, the program I use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
 
 ### The GWSL User Interface ###
 #### The Dashboard 
@@ -315,3 +321,8 @@ The easiest way is to add it to the Start Menu's startup folder.
 Note the ```--startup``` flag requires GWSL version 1.3.7 and up.
 
 #### To run silently from the Start-Menu, Desktop, or Taskbar make the same shortcut described above outside of the startup folder and pin it where it needs to be. ####
+
+### Troubleshooting ###
+
+Not here yet. But there is alot of material in the GWSL Source Github issues list.
+
