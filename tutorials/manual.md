@@ -40,7 +40,7 @@ GWSL can be easily installed from the Microsoft Store. If it is not already inst
 
 On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) or changing the dpi mode(See Options with an Asterisk).
 
-If you are not sure you allowed GWSL through the firewall, you can test the xserver by going to the GWSL Dashboard --> About --XClock. A simple clock window should open.
+If you are not sure you allowed GWSL through the firewall, you can test the xserver by going to the GWSL Dashboard --> About --> XClock. A simple clock window should open.
 
 If you did not allow it through the firewall the first time, you can simply go to the GWSL Dashboard --> About --> Allow GWSL Through the Firewall.
 This will open a window to show you how to allow it. (This feature was added in GWSL 1.3.8)
@@ -79,7 +79,13 @@ After a new WSL Distro is installed, several steps are required to get it up and
 2.  The next step is to enable "Auto-Export Display" in the Distro configuration.
 3.  After this, the user may tweak other settings explained in this section.
 
-Tip: You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
+If you are not sure you allowed GWSL through the firewall, you can test the xserver by going to the GWSL Dashboard --> About --> XClock. A simple clock window should open.
+
+If you did not allow it through the firewall the first time, you can simply go to the GWSL Dashboard --> About --> Allow GWSL Through the Firewall.
+This will open a window to show you how to allow it. (This feature was added in GWSL 1.3.8)
+
+
+Tip: You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the GWSL icon in the notification area.
 
 #### Accessing Other Distro Settings ####
 
