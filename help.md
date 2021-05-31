@@ -4,6 +4,11 @@ title: Help
 description: Help Using GWSL
 permalink: /help.html
 ---
+## GWSL Not Working After Updates?
+* Simply go to the GWSL Dashboard --> About --> Allow GWSL through the firewall, and follow the instructions.
+* If this does not help, verify GWSL PulseAudio Server and GWSL VcXsrv windows xserver HIDPI (And LOWDPI) are allowed public access.
+* Still no success? See below, you have another issue.
+
 ## Help
 
 Need help? Found a bug? Have an idea for a great new feature? Contact us!
