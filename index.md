@@ -89,7 +89,7 @@ What will happen when WSL2 gets official Wayland support? *I am just as excited 
 
 ### Frequently Asked Questions ###
 *  Why doesn't GWSL seem to work with Linux shells other than Bash? *Here is some info: [Using GWSL with other Shells](./tutorials/manual.html#using-gwsl-with-other-shells).*
-*  Does WSL work on Windows 10 versions older than 2004? *Yes, now that Microsoft has made WSL2 compatible with older versions of Windows 10, GWSL can run on them too. To run GWSL on older versions of Windows 10, you will need to install WSL2.*
+*  Does GWSL work on Windows 10 versions older than 2004? *Yes, now that Microsoft has made WSL2 compatible with older versions of Windows 10, GWSL can run on them too. To run GWSL on older versions of Windows 10, you will need to install WSL2.*
 *  Does GWSL work with every single app? *No. But most work well*
 *  Why aren't there more questions? *We are woking on this... Not many questions have been asked frequently enough to put here. Start asking!*
 
