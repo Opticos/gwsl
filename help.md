@@ -38,6 +38,6 @@ Note: Before asking your question, please make sure it has not been answered hig
 
 4.  In later versions of GWSL, you can right click the GWSL systray menu and click View Logs. Also Dashboard --> About --> View Logs.
 
-5.  Include these logs in support emails or share them in the [Discord help server](https://discord.gg/VkvNgkH). Make sure no personal information is contained in them before sharing.
+5.  Include these logs in support emails or share them in the [Discord help server](https://discord.gg/VkvNgkH). Ensure no personal information is contained in them before sharing.
 
 
