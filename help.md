@@ -4,10 +4,10 @@ title: Help
 description: Help Using GWSL
 permalink: /help.html
 ---
-## GWSL Not Working After Updates?
-* Simply go to the GWSL Dashboard --> About --> Allow GWSL through the firewall, and follow the instructions.
-* If this does not help, verify GWSL PulseAudio Server and GWSL VcXsrv windows xserver HIDPI (And LOWDPI) are allowed public access.
-* Still no success? See below, you have another issue.
+## GWSL Shortcuts Not Working After The recent update (1.3.9 or 1.4.0)?
+* I believe this is due to a new Windows bug but I am not sure.
+* To fix the problem, go to Windows Settings --> Apps --> Apps & Features --> App Execution Aliases, and toggle GWSL off and back on.
+* Still no success? See below, you may have another issue.
 
 ## Help
 
