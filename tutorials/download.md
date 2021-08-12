@@ -10,7 +10,7 @@ permalink: /tutorials/download.html
 
 ### [Traditional Windows Installer](https://github.com/Opticos/GWSL-Source/releases/) (Windows 10 1903 and up. WSL2 Required).
 
-### Winget downloads the Traditional Installer version.
+### Winget downloads the Traditional Installer version: ```winget install gwsl```
 
 ### [See the sources.](https://github.com/Opticos/GWSL-Source)
 
