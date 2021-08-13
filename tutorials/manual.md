@@ -330,5 +330,10 @@ Note the ```--startup``` flag requires GWSL version 1.3.7 and up.
 
 ### Troubleshooting ###
 
-Not here yet. But there is alot of material in the GWSL Source Github issues list.
+## GWSL Shortcuts Not Working After The recent update (1.3.9 or 1.4.0)?
+* I believe this is due to a new Windows bug but I am not sure.
+* To fix the problem, go to Windows Settings --> Apps --> Apps & Features --> App Execution Aliases, and toggle GWSL off and back on.
+* Still no success? See below, you may have another issue.
+
+There is more material in the GWSL Source Github issues list.
 
