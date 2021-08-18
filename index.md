@@ -4,7 +4,7 @@ title: GWSL
 ---
 
 
-<img src="https://opticos.github.io/gwsl/tutorials/banner.png" data-tilt data-tilt-glare=true>
+<img src="https://opticos.github.io/gwsl/tutorials/banner.png" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 ## GWSL
 
