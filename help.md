@@ -25,7 +25,8 @@ opticosstudios (at) gmail (dot) com
 
 Note: Before asking your question, please make sure it has not been answered higher up in message history. Also, GitHub has some answers. Please look at the logs before asking. (Instructions below)
 
-[![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.gg/VkvNgkH){: data-tilt data-tilt-glare=true data-tilt-max=15}
+[![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.gg/VkvNgkH)
+{: data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt}
 
 
 ### Reporting a bug? Here is how to find bug reports and logs
