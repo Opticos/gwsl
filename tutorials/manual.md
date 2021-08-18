@@ -54,7 +54,7 @@ You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Onc
 
 Overview: The GWSL Dashboard is where you can configure WSL machines, create shortcuts, and quickly launch apps.
 
-<img src="https://opticos.github.io/gwsl/tutorials/dash annotated.png" width="350">
+<img src="https://opticos.github.io/gwsl/tutorials/dash annotated.png" width="350" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 #### Key
 1.  **GWSL Distro Tools:** Access various management and configuration options for WSL Distros.
@@ -92,7 +92,7 @@ Tip: You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu
 To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine Tools".
 
 
-<img src="https://opticos.github.io/gwsl/tutorials/dashboardlink.png" width="500">
+<img src="https://opticos.github.io/gwsl/tutorials/dashboardlink.png" width="500" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 
 **NOTE: To toggle the default X Window Mode and/or Shared Clipboard settings, Right-Click the "G" Icon in the notification area. These are the default settings for the XServer on port 0 but specific shortcuts can override them.** 
@@ -100,11 +100,11 @@ To access per-distro-settings, open the GWSL Dashboard and click "GWSL Machine T
 
 ##### Choose the WSL Distro you want to configure:
 
-<img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300">
+<img src="https://opticos.github.io/gwsl/tutorials/chooser.png" width="300" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 #### GWSL Distro Manager Overview ###
 
-<img src="https://opticos.github.io/gwsl/tutorials/configure.png" width="300">
+<img src="https://opticos.github.io/gwsl/tutorials/configure.png" width="300" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 #### Key:
 
@@ -127,7 +127,7 @@ To access the Shortcut Creator, open the GWSL Dashboard and click "Shortcut Crea
 
 #### The Shortcut Creator UI:
 
-<img src="https://opticos.github.io/gwsl/tutorials/shortcut annotated.png" width="450">
+<img src="https://opticos.github.io/gwsl/tutorials/shortcut annotated.png" width="450" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 #### Key:
 
@@ -232,9 +232,7 @@ To create a shortcut that links to the Desktop Environment, open the [Shortcut C
 
 ### Using GWSL with SSH ###
 
-##### Note: This is an experimental feature. 
-
-<img src="https://opticos.github.io/gwsl/tutorials/ssh.png" width="450">
+<img src="https://opticos.github.io/gwsl/tutorials/ssh.png" width="450" data-tilt data-tilt-glare=true data-tilt-max=15>
 
 This feature lets you login to remote Linux machines and run graphical apps installed remotely on your Windows desktop.'
 
