@@ -10,6 +10,18 @@
 
       gtag('config', 'UA-165217094-2');
     </script>
+    
+    
+    <script>
+      // Check for preferes-reduced-motion (I borrowed this from the modern flyouts website :-) Credit to them)
+      const reducedMotion_query = window.matchMedia('(prefers-reduced-motion: reduce)');
+      function getPrefersReducedMotion(query) {
+        if (!query.matches) {
+          document.write('<script defer type="text/javascript" src="scripts/vanilla-tilt.min.js"></' + 'script>');
+        }
+      }
+      getPrefersReducedMotion(reducedMotion_query);
+    </script>
 
     <meta name="google-site-verification" content="6XeUoeq88rBX-n2qxl61nFy11oL0MOIgoz93IoKl0xg" />
     <meta charset="UTF-8">
@@ -28,7 +40,7 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: "The Feature-Packed, Highly-Integrated Windows 10 XServer" | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="https://opticos.github.io/gwsl/" class="btn">Home Page</a>
+        <a href="https://opticos.github.io/gwsl/" data-tilt class="btn">Home Page</a>
         <a href="https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3" class="btn">Get GWSL On The Microsoft Store</a>
         <a href="https://opticos.github.io/gwsl/tutorials/download.html" class="btn">Get GWSL On GitHub</a>
       {% endif %}
