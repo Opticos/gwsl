@@ -45,7 +45,11 @@ GWSL Builds on the VCXSRV XServer, one of the best open source Windows Xservers.
 
 Windows 10 Version 2004 [(See FAQ)](#frequently-asked-questions)
 
+### Download:
 
+<a href='//www.microsoft.com/store/apps/9nl6kd1h33v3?cid=storebadge&ocid=badge'><img data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='200'/></a>
+
+[(More download options)](https://opticos.github.io/gwsl/tutorials/download.html)
 
 ### Using GWSL
 
