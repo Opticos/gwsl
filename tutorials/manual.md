@@ -333,5 +333,15 @@ Note the ```--startup``` flag requires GWSL version 1.3.7 and up.
 * To fix the problem, go to Windows Settings --> Apps --> Apps & Features --> App Execution Aliases, and toggle GWSL off and back on.
 * Still no success? See below, you may have another issue.
 
+## GWSL firewall issues. 
+This is covered in [Installing GWSL](#installing-gwsl).
+
+You probably are having firewall issues if Linux programs are complaining about "not being able to connect to display on (ip)".
+
+If this is the case, see [Installing GWSL](#installing-gwsl).
+
+For Windows security reasons, GWSL sometimes loses firewall access after it receives an update. You have to re-allow it. The old GWSL entries in Windows firewall can be removed.
+
+
 There is more material in the GWSL Source Github issues list.
 
