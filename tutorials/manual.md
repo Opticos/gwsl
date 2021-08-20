@@ -347,7 +347,7 @@ This is a fairly common WSL issue:
 *  https://github.com/microsoft/WSL/issues/5876
 *  https://github.com/microsoft/WSL/issues/4992
 
-I have not tested it but w[sld seems like it could fix the problem.](https://github.com/nbdd0121/wsld) 
+I have not tested it but [wsld seems like it could fix the problem.](https://github.com/nbdd0121/wsld) 
 
 
 There is more material in the GWSL Source Github issues list.
