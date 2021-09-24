@@ -143,6 +143,10 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="optico5" data-description="Support me on Buy me a coffee!" data-message="Donate on BuyMeACoffee.com" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
+# You can also donate via Bitcoin (No PayPal fees):
+Bitcoin: [38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N]("bitcoin:38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N")
+
+
 ### My Other Sites:
 <!--*  [LinkedIn Profile](https://www.linkedin.com/in/paul-elliot-foy)-->
 *  [OpenInWSL Website](https://opticos.github.io/openinwsl)
