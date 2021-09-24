@@ -123,6 +123,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 #### You can also donate via Bitcoin (No PayPal fees):
 _Bitcoin (BTC)_: 38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N
 
+##### Patreon:
 <a href="https://www.patreon.com/bePatron?u=62158960" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
 ##### Or use Ko-Fi ☕
