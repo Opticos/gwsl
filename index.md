@@ -146,6 +146,8 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 #### You can also donate via Bitcoin (No PayPal fees):
 Bitcoin: [38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N]("/bitcoin:38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N")
 
+<span style="color:#FF813F">some *blue* text</span>
+
 
 ### My Other Sites:
 <!--*  [LinkedIn Profile](https://www.linkedin.com/in/paul-elliot-foy)-->
