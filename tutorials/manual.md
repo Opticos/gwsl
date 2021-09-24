@@ -45,7 +45,7 @@ If you are not sure you allowed GWSL through the firewall, you can test the xser
 If you did not allow it through the firewall the first time, you can simply go to the GWSL Dashboard --> About --> Allow GWSL Through the Firewall.
 This will open a window to show you how to allow it. (This feature was added in GWSL 1.3.8)
 This is what your firewall should look like:
-<img src="https://opticos.github.io/gwsl/tutorials/gwsl firewall help.png" width="400">
+<img src="https://opticos.github.io/gwsl/tutorials/gwsl firewall help.png" width="700">
 
 Note: Some Antiviruses might detect GWSL and block its installation. This is a known bug in Pyinstaller, the program I use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
 
