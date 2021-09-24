@@ -121,7 +121,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 </form>
 
 #### You can also donate via Bitcoin (No PayPal fees):
-_Bitcoin_: 38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N
+_Bitcoin (BTC)_: 38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N
 
 
 ##### Or use Ko-Fi ☕
