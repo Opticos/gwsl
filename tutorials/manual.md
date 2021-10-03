@@ -284,7 +284,7 @@ Add this to the end of `config.fish` and you should be good to go! (Credit to [J
 
 In the settings file, change the ```pulseaudio``` variable to ```false```. This will disable audio functionality. The microphone icon in the taskbar will also disappear because no audio is being used. 
 
-__Please note that when pulseaudio is active, the microphone icon will show up. It does _not_ mean the GWSL is recording audio. GWSL with pulseaudio only allows Linux apps in WSL to use the microphone and speaker. It does not and cannot record anything itself.__
+__Please note that when pulseaudio is active, the microphone icon will show up. It does _not_ mean that GWSL is recording audio. GWSL's builtin pulseaudio only allows Linux apps in WSL to use the microphone and speaker. _It does not and cannot record anything by itself.___
 
 #### Blocking Distros
 
