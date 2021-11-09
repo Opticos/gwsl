@@ -132,7 +132,7 @@ _Bitcoin (BTC)_: 38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N
 (Ko-Fi is the floating button on the left side.)
 
 ##### Or BuyMeACoffee.com ⭐
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="optico5" data-color="#e08a28" data-emoji=""  data-font="Poppins" data-text="Donate: Buy me a coffee.com" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FF7673" ></script>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="optico5" data-color="#e08a28" data-emoji=""  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FF7673" ></script>
 
 (BuyMeACoffee is the floating button on the right side.)
 
