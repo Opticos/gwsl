@@ -15,9 +15,10 @@ permalink: /tutorials/manual.html
 9.  [Using GWSL with SSH](#using-gwsl-with-ssh)
 10.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
 11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
-12.  [Finding Logs](#finding-logs)
-13.  [Starting GWSL Silently (without dashboard)](#silent-startup)
-14.  [Troubleshooting](#troubleshooting)
+12.  [Why is my Display Scaling Wrong?](#windows-scaling-incorrectly)
+13.  [Finding Logs](#finding-logs)
+14.  [Starting GWSL Silently (without dashboard)](#silent-startup)
+15.  [Troubleshooting](#troubleshooting)
 
 
 ***
@@ -307,6 +308,17 @@ You can use CMD or the new Windows Terminal. In the settings file, change the va
 #### Disabling Acrylic for Compatibility with HDR Displays
 
 The GWSL Dashboard does not always display properly when HDR is on (on certain displays). To fix this, open the settings file and set the value of ```"acrylic_enabled"``` to ```false```.
+
+### Windows Scaling Incorrectly ###
+
+#### Are your windows too small, too big, or blurry? Here is how to fix it.
+1.  If your windows are appearing too big, first ensure that QT-HIDPI and GTK-HIDPI are set to low in GWSL distro settings.
+2.  If windows appear blurry, right click the GWSL systray icon on the bottom-right corner of the desktop and change DPI Scaling Mode to "Linux Scaling". This will keep Windows (The Operating System) from attempting to scale up and stretch your windows. Windows sometimes does this to increase efficiency (which works), but it can lead to blurriness that is sometimes unpleasant.
+3.  However, if your windows are lagging and you have a hi-dpi display, consider using "windows based" scaling as it is alot faster than setting GTK or QT to hidpi mode.
+
+Note: The GTK, QT, and systray DPI settings are all independent and can be mixed and matched. GTK scaling lets GTK double the size of buttons etc. QT scaling works the same way as GTK. The systray DPI setting changes whether Windows is allowed to try stretching windows to increase efficiency.
+
+If you use a low-dpi display, these settings can be left untouched. 
 
 
 ### Finding Logs ###
