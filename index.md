@@ -113,6 +113,8 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 
 #### Venmo: @Paul_Foy (I am not charged a fee)
 
+
+
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
 <input type="hidden" name="business" value="VV8W4XA2PZ5R8" />
