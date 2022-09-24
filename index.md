@@ -115,7 +115,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 
 <img src="https://opticos.github.io/gwsl/Venmo.png" data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt>
 
-<a href='https://opticos.github.io/gwsl/Venmo.png'><img data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='400'/></a>
+<a href='https://opticos.github.io/gwsl/Venmo.png'><img data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt src='https://opticos.github.io/gwsl/Venmo.png' alt='English badge' width='400'/></a>
 
 
 
