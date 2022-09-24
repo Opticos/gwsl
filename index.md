@@ -113,7 +113,7 @@ If you enjoy GWSL, please consider buying me a cup of coffee. I worked hard to m
 
 #### [Venmo: @Paul_Foy (I am not charged a fee)](https://account.venmo.com/u/Paul_Foy)
 
-<img src="https://github.com/Opticos/gwsl/blob/master/Venmo.png" data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt>
+<img src="https://opticos.github.io/gwsl/Venmo.png" data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt>
 
 
 
