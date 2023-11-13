@@ -35,7 +35,7 @@ Meh... That doesn't sound too great. GWSL stands for Graphical WSL. WSL in turn 
 
 There are several alternative XServers for Windows 10. Some are proprietary (and costly). Some have not been updated for years. 
 
-GWSL is Free.
+GWSL is Open Source.
 
 GWSL is easy to install.
 
