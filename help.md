@@ -4,6 +4,13 @@ title: Help
 description: Help Using GWSL
 permalink: /help.html
 ---
+
+## Update Aug-Oct 2024
+* Microsoft is rolling out an update that can break GWSL.
+* We are working on a fix.
+* Meanwhile, please join the Discord server below for help. We can get things working until the fix is released.
+
+  
 ## GWSL Shortcuts Not Working After The recent update (1.3.9 or 1.4.0)?
 * I believe this is due to a new Windows bug but I am not sure.
 * To fix the problem, go to Windows Settings --> Apps --> Apps & Features --> App Execution Aliases, and toggle GWSL off and back on.
