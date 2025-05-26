@@ -24,6 +24,118 @@
     <meta name="google-site-verification" content="6XeUoeq88rBX-n2qxl61nFy11oL0MOIgoz93IoKl0xg" />
     <meta charset="UTF-8">
 
+    <style>
+        /* Popup container */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      opacity: 0; /* Start invisible for fade-in */
+      transition: opacity 0.3s ease-in-out; /* 0.3s transition */
+    }
+
+    /* Popup when visible */
+    .popup.active {
+      display: flex;
+      opacity: 1; /* Fully visible after fade-in */
+    }
+
+    /* Popup content */
+    .popup-content {
+      background-color: white; /* Reverted to original white */
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      max-width: 500px; /* Increased to accommodate larger image */
+      width: 90%; /* Slightly wider on smaller screens */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      opacity: 0; /* Start invisible for fade-in */
+      transform: translateY(20px); /* Slight slide-up effect */
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* 0.3s transition */
+    }
+
+    /* Popup content when visible */
+    .popup.active .popup-content {
+      opacity: 1;
+      transform: translateY(0); /* Move to original position */
+    }
+
+    /* Image styling */
+    .popup-content img {
+      width: 100%; /* Image takes full width of popup content */
+      max-width: 450px; /* Cap image size for large screens */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+/* Button container for consistent alignment */
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px; /* Space between buttons */
+      margin-top: 25px; /* Increased padding above buttons */
+      margin-bottom: 15px; /* Added padding below buttons */
+    }
+
+    /* Close button */
+    .popup-close {
+      background-color: #666666; /* Kept as muted gray */
+      color: white;
+      border: none;
+      padding: 10px 20px; /* Standardized padding */
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px; /* Consistent font size */
+    }
+
+    .popup-close:hover {
+      background-color: #4d4d4d; /* Kept as darker gray for hover */
+    }
+
+    /* Link button styling */
+    .popup-content a {
+      display: inline-block; /* Make link behave like a button */
+      background-color: #e4982b; /* Reverted to original orange */
+      color: white; /* White text for contrast */
+      padding: 10px 20px; /* Standardized padding */
+      border-radius: 5px; /* Rounded corners */
+      text-decoration: none; /* Remove underline */
+      font-size: 16px; /* Consistent font size */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
+    }
+
+    .popup-content a:hover {
+      background-color: #c15907; /* Reverted to original darker orange on hover */
+      transform: scale(1.05); /* Slight scale-up on hover */
+      text-decoration: none; /* Ensure no underline on hover */
+    }
+
+    /* Trigger button styling */
+    .popup-trigger {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+    }
+
+    .popup-trigger:hover {
+      background-color: #004c99;
+    }
+  </style>
+
+
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -32,6 +144,55 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
   </head>
   <body>
+
+        <!-- Popup Modal -->
+  <div id="promoPopup" class="popup">
+    <div class="popup-content">
+      <h2>Check out my new app!</h2>
+      <img src="https://www.timesqueeze.net/_astro/dashboard.1f09bd87_Z1IX04q.webp" alt="Dashboard Preview">
+      <h2>Time Squeeze</h2>
+      <h3>Never lose another second.</h3>
+      <p>Track your computer activity, improve your productivity, and bill every moment with Time Squeeze.</p>
+
+      <div class="button-container">
+        <a href="https://www.timesqueeze.net/" target="_blank">Get it Now!</a>
+        <button class="popup-close" onclick="closePopup()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+   function showPopup() {
+      const popup = document.getElementById('promoPopup');
+      popup.style.display = 'flex';
+      setTimeout(() => popup.classList.add('active'), 10); // Add active class after slight delay
+    }
+
+    // Function to close the popup and set localStorage
+    function closePopup() {
+      const popup = document.getElementById('promoPopup');
+      popup.classList.remove('active'); // Remove active class for fade-out
+      setTimeout(() => {
+        popup.style.display = 'none';
+        localStorage.setItem('popupShown', 'true');
+      }, 300); // Match transition duration
+    }
+
+    // Check if popup has been shown before on page load
+    window.onload = function() {
+      if (!localStorage.getItem('popupShown')) {
+        showPopup();
+      }
+    };
+
+    // Close popup when clicking outside the popup content
+    document.getElementById('promoPopup').addEventListener('click', function(event) {
+      if (event.target.classList.contains('popup')) {
+        closePopup();
+      }
+    });
+  </script>
+    
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
@@ -40,7 +201,8 @@
       {% if site.github.is_project_page %}
         <a href="https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3" class="btn">Get GWSL On The Microsoft Store</a>
         <a href="https://opticos.github.io/openinwsl" class="btn">Get OpenInWSL</a>
-        <a href="https://www.timesqueeze.net" target="_blank" class="btn" style="border-color: rgba(41, 126, 35, 0.5); border-width: 2px;">New App! Track your time with Time Squeeze</a>
+        <button class="popup-trigger btn" onclick="showPopup()" style="border-color: rgba(41, 126, 35, 0.5); border-width: 2px;">New App! Track your time with Time Squeeze</button>
+
       {% endif %}
       
     </header>
